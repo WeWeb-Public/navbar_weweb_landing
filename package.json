@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/WeWeb-Public/navbar_A"
     },
-    "version": "0.0.7",
+    "version": "0.0.2",
     "private": true,
     "scripts": {
         "build": "weweb-build",
@@ -39,7 +39,7 @@
         "webpack": "^4.9.1",
         "webpack-cli": "^2.1.4",
         "webpack-dev-server": "^3.1.14",
-        "weweb-client": "^1.0.15"
+        "weweb-client": "^1.0.25"
     },
     "browserslist": [
         "> 1%",

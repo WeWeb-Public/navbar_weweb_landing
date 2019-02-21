@@ -8,13 +8,13 @@ module.exports = [
             en_GB: "Simple navbar"
         }
     },
-    {
-        name: 'navbar_center',
-        storeName: {
-            en_GB: "Centered navbar"
-        },
-        storeDesc: {
-            en_GB: "Centered navbar"
-        }
-    }
+    // {
+    //     name: 'navbar_center',
+    //     storeName: {
+    //         en_GB: "Centered navbar"
+    //     },
+    //     storeDesc: {
+    //         en_GB: "Centered navbar"
+    //     }
+    // }
 ]
