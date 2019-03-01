@@ -2,19 +2,19 @@ module.exports = [
     {
         name: 'navbar_simple',
         storeName: {
-            en_GB: "Simple navbar"
+            en: "Simple navbar"
         },
         storeDesc: {
-            en_GB: "Simple navbar"
+            en: "Simple navbar"
         }
     },
     // {
     //     name: 'navbar_center',
     //     storeName: {
-    //         en_GB: "Centered navbar"
+    //         en: "Centered navbar"
     //     },
     //     storeDesc: {
-    //         en_GB: "Centered navbar"
+    //         en: "Centered navbar"
     //     }
     // }
 ]

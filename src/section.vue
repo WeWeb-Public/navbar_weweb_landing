@@ -49,15 +49,15 @@ import navbarAAppearPercent from './navbarAAppearPercent.vue'
 wwLib.wwPopups.addPopup('navbarAAppearPercent', navbarAAppearPercent);
 wwLib.wwPopups.addStory('NAVBAR_A_APPEAR_PERCENT', {
     title: {
-        en_GB: 'Scroll appear percent',
-        fr_FR: 'Pourcentage de scroll avant apparition'
+        en: 'Scroll appear percent',
+        fr: 'Pourcentage de scroll avant apparition'
     },
     type: 'navbarAAppearPercent',
     buttons: {
         FINISH: {
             text: {
-                en_GB: 'Finish',
-                fr_FR: 'Terminer'
+                en: 'Finish',
+                fr: 'Terminer'
             },
             next: false
         }

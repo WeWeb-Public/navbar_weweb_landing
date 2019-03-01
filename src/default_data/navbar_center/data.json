@@ -116,7 +116,7 @@
                                                         "type": "ww-text",
                                                         "data": {
                                                             "text": {
-                                                                "fr_FR": "Mon lien 1"
+                                                                "fr": "Mon lien 1"
                                                             },
                                                             "tag": "div",
                                                             "align": "",
@@ -154,7 +154,7 @@
                                                         "type": "ww-text",
                                                         "data": {
                                                             "text": {
-                                                                "fr_FR": "Mon lien 2"
+                                                                "fr": "Mon lien 2"
                                                             },
                                                             "tag": "div",
                                                             "align": "",
@@ -234,8 +234,8 @@
                                         "data": {
                                             "url": "https://cdn.wewebapp.io/public/images/no_image_selected.png",
                                             "alt": {
-                                                "fr_FR": "webeo",
-                                                "en_GB": "webeo"
+                                                "fr": "webeo",
+                                                "en": "webeo"
                                             },
                                             "position": {
                                                 "x": 0,
@@ -354,7 +354,7 @@
                                                         "type": "ww-text",
                                                         "data": {
                                                             "text": {
-                                                                "fr_FR": "Abonnez-vous !"
+                                                                "fr": "Abonnez-vous !"
                                                             },
                                                             "tag": "div",
                                                             "align": "",
@@ -614,8 +614,8 @@
             "content": {
                 "data": {
                     "alt": {
-                        "en_GB": "webeo",
-                        "fr_FR": "webeo"
+                        "en": "webeo",
+                        "fr": "webeo"
                     },
                     "url": "https://cdn.wewebapp.io/public/images/no_image_selected.png",
                     "zoom": 1.185368112363019,
@@ -689,7 +689,7 @@
                     "font": "",
                     "size": "",
                     "text": {
-                        "fr_FR": "Mon lien 1"
+                        "fr": "Mon lien 1"
                     },
                     "align": "",
                     "color": "",
@@ -727,7 +727,7 @@
                     "font": "",
                     "size": "",
                     "text": {
-                        "fr_FR": "Mon Lien 2"
+                        "fr": "Mon Lien 2"
                     },
                     "align": "",
                     "color": "",

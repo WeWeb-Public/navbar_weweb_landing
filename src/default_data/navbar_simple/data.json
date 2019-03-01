@@ -295,8 +295,8 @@
                                                     "content": {
                                                         "data": {
                                                             "alt": {
-                                                                "en_GB": "webeo",
-                                                                "fr_FR": "webeo"
+                                                                "en": "webeo",
+                                                                "fr": "webeo"
                                                             },
                                                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/2/sections/OcaGV1tyIzVxV5uQX566DgH5fZqGm7D8.png",
                                                             "zoom": 1,
@@ -431,8 +431,8 @@
                                                                     "type": "ww-text",
                                                                     "data": {
                                                                         "text": {
-                                                                            "fr_FR": "Contexte &amp; Objectifs",
-                                                                            "en_GB": "New button"
+                                                                            "fr": "Contexte &amp; Objectifs",
+                                                                            "en": "New button"
                                                                         },
                                                                         "tag": "div",
                                                                         "align": "",
@@ -503,8 +503,8 @@
                                                                     "type": "ww-text",
                                                                     "data": {
                                                                         "text": {
-                                                                            "fr_FR": "Méthodologie",
-                                                                            "en_GB": "New button"
+                                                                            "fr": "Méthodologie",
+                                                                            "en": "New button"
                                                                         },
                                                                         "tag": "div",
                                                                         "align": "",
@@ -575,8 +575,8 @@
                                                                     "type": "ww-text",
                                                                     "data": {
                                                                         "text": {
-                                                                            "fr_FR": "Le Marché",
-                                                                            "en_GB": "New button"
+                                                                            "fr": "Le Marché",
+                                                                            "en": "New button"
                                                                         },
                                                                         "tag": "div",
                                                                         "align": "",
@@ -647,8 +647,8 @@
                                                                     "type": "ww-text",
                                                                     "data": {
                                                                         "text": {
-                                                                            "fr_FR": "Nos références",
-                                                                            "en_GB": "New button"
+                                                                            "fr": "Nos références",
+                                                                            "en": "New button"
                                                                         },
                                                                         "tag": "div",
                                                                         "align": "",
@@ -719,8 +719,8 @@
                                                                     "type": "ww-text",
                                                                     "data": {
                                                                         "text": {
-                                                                            "fr_FR": "Equipe",
-                                                                            "en_GB": "New button"
+                                                                            "fr": "Equipe",
+                                                                            "en": "New button"
                                                                         },
                                                                         "tag": "div",
                                                                         "align": "",
@@ -791,8 +791,8 @@
                                                                     "type": "ww-text",
                                                                     "data": {
                                                                         "text": {
-                                                                            "fr_FR": "Proposition financière",
-                                                                            "en_GB": "New button"
+                                                                            "fr": "Proposition financière",
+                                                                            "en": "New button"
                                                                         },
                                                                         "tag": "div",
                                                                         "align": "",
@@ -927,8 +927,8 @@
                                                                     "type": "ww-text",
                                                                     "data": {
                                                                         "text": {
-                                                                            "fr_FR": "Nous contacter",
-                                                                            "en_GB": "New button"
+                                                                            "fr": "Nous contacter",
+                                                                            "en": "New button"
                                                                         },
                                                                         "tag": "div",
                                                                         "align": "",
@@ -1046,8 +1046,8 @@
                                     "content": {
                                         "data": {
                                             "alt": {
-                                                "en_GB": "webeo",
-                                                "fr_FR": "webeo"
+                                                "en": "webeo",
+                                                "fr": "webeo"
                                             },
                                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/2/sections/OcaGV1tyIzVxV5uQX566DgH5fZqGm7D8.png",
                                             "zoom": 1,
@@ -1167,8 +1167,8 @@
             "content": {
                 "data": {
                     "alt": {
-                        "en_GB": "webeo",
-                        "fr_FR": "webeo"
+                        "en": "webeo",
+                        "fr": "webeo"
                     },
                     "url": "https://cdn.wewebapp.io/public/images/no_image_selected.png",
                     "zoom": 1.185368112363019,
@@ -1242,7 +1242,7 @@
                     "font": "",
                     "size": "",
                     "text": {
-                        "fr_FR": "Mon lien 1"
+                        "fr": "Mon lien 1"
                     },
                     "align": "",
                     "color": "",
@@ -1280,7 +1280,7 @@
                     "font": "",
                     "size": "",
                     "text": {
-                        "fr_FR": "Mon Lien 2"
+                        "fr": "Mon Lien 2"
                     },
                     "align": "",
                     "color": "",

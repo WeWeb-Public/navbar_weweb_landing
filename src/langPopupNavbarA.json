@@ -1,18 +1,18 @@
 {
     "scrollTitle": {
-        "en_GB": "Amount of scroll before the navbar appears",
-        "fr_FR": "Montant du scroll avant que la barre de navigation n'apparaisse"
+        "en": "Amount of scroll before the navbar appears",
+        "fr": "Montant du scroll avant que la barre de navigation n'apparaisse"
     },
     "scrollDesc": {
-        "en_GB": "In percent (%) of navigator height.",
-        "fr_FR": "En pourcentage (%) de la hauteur du navigateur."
+        "en": "In percent (%) of navigator height.",
+        "fr": "En pourcentage (%) de la hauteur du navigateur."
     },
     "scrollDesc2": {
-        "en_GB": "Use '-1%' to always show the navbar.",
-        "fr_FR": "Utilisez '-1%' pour toujours afficher la barre de navigation."
+        "en": "Use '-1%' to always show the navbar.",
+        "fr": "Utilisez '-1%' pour toujours afficher la barre de navigation."
     },
     "percent": {
-        "en_GB": "Percent - %",
-        "fr_FR": "Pourcent - %"
+        "en": "Percent - %",
+        "fr": "Pourcent - %"
     }
 }
