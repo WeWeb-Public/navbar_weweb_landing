@@ -105,6 +105,7 @@
                                     ]
                                 },
                                 {
+                                    "hide": true,
                                     "align": "2",
                                     "width": "10",
                                     "offset": 0,
@@ -147,7 +148,7 @@
                             "cols": [
                                 {
                                     "align": "2",
-                                    "width": "50",
+                                    "width": "25",
                                     "offset": 0,
                                     "borders": [
                                         {
@@ -202,8 +203,8 @@
                                 },
                                 {
                                     "align": "2",
-                                    "width": "50",
-                                    "offset": 0,
+                                    "width": "37",
+                                    "offset": "1",
                                     "borders": [
                                         {
                                             "color": "#000000",
@@ -228,8 +229,8 @@
                                     ]
                                 },
                                 {
-                                    "align": "1",
-                                    "width": 25,
+                                    "align": "2",
+                                    "width": "37",
                                     "offset": 0,
                                     "borders": [
                                         {
@@ -257,7 +258,8 @@
                             ],
                             "unit": "px",
                             "height": 70,
-                            "ignore": false
+                            "ignore": false,
+                            "nowrap": true
                         },
                         "count": 4,
                         "height": null
@@ -431,7 +433,7 @@
                                                     "data": {},
                                                     "link": {
                                                         "data": {
-                                                            "id": 1955055623
+                                                            "id": 1447447801
                                                         },
                                                         "type": "ww-link-section"
                                                     },
@@ -457,6 +459,7 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
+                                                                            "fr": "Contexte &amp; Objectifs",
                                                                             "en_GB": "New button",
                                                                             "fr_FR": "Contexte &amp; Objectifs"
                                                                         },
@@ -529,6 +532,7 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
+                                                                            "fr": "Méthodologie",
                                                                             "en_GB": "New button",
                                                                             "fr_FR": "Méthodologie"
                                                                         },
@@ -601,6 +605,7 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
+                                                                            "fr": "Le Marché",
                                                                             "en_GB": "New button",
                                                                             "fr_FR": "Le Marché"
                                                                         },
@@ -673,6 +678,7 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
+                                                                            "fr": "Nos références",
                                                                             "en_GB": "New button",
                                                                             "fr_FR": "Nos références"
                                                                         },
@@ -745,6 +751,7 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
+                                                                            "fr": "Equipe",
                                                                             "en_GB": "New button",
                                                                             "fr_FR": "Equipe"
                                                                         },
@@ -791,7 +798,7 @@
                                                     "data": {},
                                                     "link": {
                                                         "data": {
-                                                            "id": 107059382
+                                                            "id": 2049242177
                                                         },
                                                         "type": "ww-link-section"
                                                     },
@@ -817,6 +824,7 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
+                                                                            "fr": "Proposition financière",
                                                                             "en_GB": "New button",
                                                                             "fr_FR": "Proposition financière"
                                                                         },
@@ -951,6 +959,7 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
+                                                                            "fr": "Nous contacter",
                                                                             "en_GB": "New button",
                                                                             "fr_FR": "Nous contacter"
                                                                         },
@@ -1038,7 +1047,80 @@
                             }
                         },
                         {
-                            "wwObjects": [],
+                            "wwObjects": [
+                                {
+                                    "new": false,
+                                    "anim": {},
+                                    "data": {},
+                                    "link": {
+                                        "data": {},
+                                        "type": "ww-link-navbar"
+                                    },
+                                    "tags": [],
+                                    "ratio": -1,
+                                    "hidden": false,
+                                    "content": {
+                                        "data": {
+                                            "align": "center",
+                                            "justify": "flex-end",
+                                            "wwObjects": [
+                                                {
+                                                    "new": false,
+                                                    "anim": {},
+                                                    "data": {},
+                                                    "link": {
+                                                        "data": {},
+                                                        "type": "none"
+                                                    },
+                                                    "tags": [],
+                                                    "ratio": -1,
+                                                    "hidden": false,
+                                                    "content": {
+                                                        "data": {
+                                                            "icon": "wwi wwi-menu",
+                                                            "style": {
+                                                                "size": 40,
+                                                                "color": "#000000",
+                                                                "fontSize": 20,
+                                                                "gradient": {},
+                                                                "boxShadow": {
+                                                                    "b": 0,
+                                                                    "c": "",
+                                                                    "s": 0,
+                                                                    "x": 0,
+                                                                    "y": 0
+                                                                },
+                                                                "borderColor": "#E30613",
+                                                                "borderStyle": "solid",
+                                                                "borderWidth": 1,
+                                                                "borderRadius": 50,
+                                                                "backgroundColor": "#FFFFFF"
+                                                            }
+                                                        },
+                                                        "type": "ww-icon"
+                                                    },
+                                                    "children": {},
+                                                    "paddings": {},
+                                                    "uniqueId": 2684374223,
+                                                    "wwVersion": 3
+                                                }
+                                            ]
+                                        },
+                                        "type": "ww-row"
+                                    },
+                                    "children": {},
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 20,
+                                            "bottom": 0
+                                        }
+                                    },
+                                    "uniqueId": 4885603478,
+                                    "wwVersion": 3
+                                }
+                            ],
                             "background": {
                                 "new": false,
                                 "anim": {},
@@ -1091,34 +1173,52 @@
             "anim": {},
             "data": {},
             "link": {
-                "data": {},
-                "type": "none"
+                "data": {
+                    "id": 1447447801
+                },
+                "type": "ww-link-section"
             },
             "tags": [],
             "ratio": -1,
             "hidden": false,
             "content": {
                 "data": {
-                    "alt": {
-                        "en_GB": "webeo",
-                        "fr_FR": "webeo"
-                    },
-                    "pos": {
-                        "top": "46.178248861685454%",
-                        "left": "0%",
-                        "width": "100%",
-                        "height": "7.643502276629096%"
-                    },
-                    "url": "https://cdn.wewebapp.io/public/images/no_image_selected.png",
-                    "crop": "83.83113632571333px100p@7.819010416666671px0p",
-                    "zoom": 1.185368112363019,
-                    "hover": {
-                        "name": "",
-                        "options": {}
+                    "text": {
+                        "new": false,
+                        "anim": {},
+                        "data": {},
+                        "link": {
+                            "data": {},
+                            "type": "none"
+                        },
+                        "tags": [],
+                        "ratio": -1,
+                        "hidden": false,
+                        "content": {
+                            "data": {
+                                "tag": "div",
+                                "font": "",
+                                "size": "",
+                                "text": {
+                                    "fr": "Contexte &amp; Objectifs",
+                                    "en_GB": "New button",
+                                    "fr_FR": "Contexte &amp; Objectifs"
+                                },
+                                "align": "",
+                                "color": "",
+                                "classes": [],
+                                "children": []
+                            },
+                            "type": "ww-text"
+                        },
+                        "children": {},
+                        "paddings": {},
+                        "uniqueId": 6827543585,
+                        "wwVersion": 3
                     },
                     "style": {
-                        "filter": null,
-                        "overlay": null,
+                        "padding": 10,
+                        "gradient": {},
                         "boxShadow": {
                             "b": 0,
                             "c": "",
@@ -1126,43 +1226,26 @@
                             "x": 0,
                             "y": 0
                         },
-                        "borderColor": null,
-                        "borderStyle": null,
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
                         "borderWidth": 0,
-                        "borderRadius": 0
+                        "borderRadius": 50,
+                        "backgroundColor": "#FFFFFF00"
                     },
-                    "dataUrl": null,
-                    "imgSize": {
-                        "h": 1080,
-                        "w": 1920
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "animation": {
-                        "fn": null,
-                        "delay": 0,
-                        "scale": 1,
-                        "rotate": 0,
-                        "opacity": 1,
-                        "duration": 0,
-                        "translateX": 0,
-                        "translateY": 0
-                    }
+                    "fullWidth": false
                 },
-                "type": "ww-image"
+                "type": "ww-button"
             },
             "children": {},
             "paddings": {
                 "xs": {
-                    "top": 45,
-                    "left": 43,
-                    "right": 43,
-                    "bottom": 45
+                    "top": 70,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 10
                 }
             },
-            "uniqueId": 8666834501,
+            "uniqueId": 2148714563,
             "wwVersion": 3
         },
         {
@@ -1170,37 +1253,79 @@
             "anim": {},
             "data": {},
             "link": {
-                "data": {},
-                "type": "none"
+                "data": {
+                    "id": 1529480196
+                },
+                "type": "ww-link-section"
             },
             "tags": [],
             "ratio": -1,
             "hidden": false,
             "content": {
                 "data": {
-                    "tag": "div",
-                    "font": "",
-                    "size": "",
                     "text": {
-                        "fr_FR": "Mon lien 1"
+                        "new": false,
+                        "anim": {},
+                        "data": {},
+                        "link": {
+                            "data": {},
+                            "type": "none"
+                        },
+                        "tags": [],
+                        "ratio": -1,
+                        "hidden": false,
+                        "content": {
+                            "data": {
+                                "tag": "div",
+                                "font": "",
+                                "size": "",
+                                "text": {
+                                    "fr": "Méthodologie",
+                                    "en_GB": "New button",
+                                    "fr_FR": "Contexte &amp; Objectifs"
+                                },
+                                "align": "",
+                                "color": "",
+                                "classes": [],
+                                "children": []
+                            },
+                            "type": "ww-text"
+                        },
+                        "children": {},
+                        "paddings": {},
+                        "uniqueId": 13795375725,
+                        "wwVersion": 3
                     },
-                    "align": "",
-                    "color": "",
-                    "classes": [],
-                    "children": []
+                    "style": {
+                        "padding": 10,
+                        "gradient": {},
+                        "boxShadow": {
+                            "b": 0,
+                            "c": "",
+                            "s": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "borderWidth": 0,
+                        "borderRadius": 50,
+                        "backgroundColor": "#FFFFFF00"
+                    },
+                    "fullWidth": false
                 },
-                "type": "ww-text"
+                "type": "ww-button"
             },
             "children": {},
             "paddings": {
                 "xs": {
                     "top": 0,
-                    "left": 30,
-                    "right": 30,
-                    "bottom": 20
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 10
                 }
             },
-            "uniqueId": 15022674982,
+            "uniqueId": 5329414418,
             "wwVersion": 3
         },
         {
@@ -1208,37 +1333,319 @@
             "anim": {},
             "data": {},
             "link": {
-                "data": {},
-                "type": "none"
+                "data": {
+                    "id": 1036590848
+                },
+                "type": "ww-link-section"
             },
             "tags": [],
             "ratio": -1,
             "hidden": false,
             "content": {
                 "data": {
-                    "tag": "div",
-                    "font": "",
-                    "size": "",
                     "text": {
-                        "fr_FR": "Mon Lien 2"
+                        "new": false,
+                        "anim": {},
+                        "data": {},
+                        "link": {
+                            "data": {},
+                            "type": "none"
+                        },
+                        "tags": [],
+                        "ratio": -1,
+                        "hidden": false,
+                        "content": {
+                            "data": {
+                                "tag": "div",
+                                "font": "",
+                                "size": "",
+                                "text": {
+                                    "fr": "Le Marché",
+                                    "en_GB": "New button",
+                                    "fr_FR": "Contexte &amp; Objectifs"
+                                },
+                                "align": "",
+                                "color": "",
+                                "classes": [],
+                                "children": []
+                            },
+                            "type": "ww-text"
+                        },
+                        "children": {},
+                        "paddings": {},
+                        "uniqueId": 14400597377,
+                        "wwVersion": 3
                     },
-                    "align": "",
-                    "color": "",
-                    "classes": [],
-                    "children": []
+                    "style": {
+                        "padding": 10,
+                        "gradient": {},
+                        "boxShadow": {
+                            "b": 0,
+                            "c": "",
+                            "s": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "borderWidth": 0,
+                        "borderRadius": 50,
+                        "backgroundColor": "#FFFFFF00"
+                    },
+                    "fullWidth": false
                 },
-                "type": "ww-text"
+                "type": "ww-button"
             },
             "children": {},
             "paddings": {
                 "xs": {
                     "top": 0,
-                    "left": 30,
-                    "right": 30,
-                    "bottom": 20
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 10
                 }
             },
-            "uniqueId": 7720686054,
+            "uniqueId": 13027055328,
+            "wwVersion": 3
+        },
+        {
+            "new": false,
+            "anim": {},
+            "data": {},
+            "link": {
+                "data": {
+                    "id": 23
+                },
+                "type": "ww-link-section"
+            },
+            "tags": [],
+            "ratio": -1,
+            "hidden": false,
+            "content": {
+                "data": {
+                    "text": {
+                        "new": false,
+                        "anim": {},
+                        "data": {},
+                        "link": {
+                            "data": {},
+                            "type": "none"
+                        },
+                        "tags": [],
+                        "ratio": -1,
+                        "hidden": false,
+                        "content": {
+                            "data": {
+                                "tag": "div",
+                                "font": "",
+                                "size": "",
+                                "text": {
+                                    "fr": "Nos références",
+                                    "en_GB": "New button",
+                                    "fr_FR": "Contexte &amp; Objectifs"
+                                },
+                                "align": "",
+                                "color": "",
+                                "classes": [],
+                                "children": []
+                            },
+                            "type": "ww-text"
+                        },
+                        "children": {},
+                        "paddings": {},
+                        "uniqueId": 1463051755,
+                        "wwVersion": 3
+                    },
+                    "style": {
+                        "padding": 10,
+                        "gradient": {},
+                        "boxShadow": {
+                            "b": 0,
+                            "c": "",
+                            "s": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "borderWidth": 0,
+                        "borderRadius": 50,
+                        "backgroundColor": "#FFFFFF00"
+                    },
+                    "fullWidth": false
+                },
+                "type": "ww-button"
+            },
+            "children": {},
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 10
+                }
+            },
+            "uniqueId": 14384937717,
+            "wwVersion": 3
+        },
+        {
+            "new": false,
+            "anim": {},
+            "data": {},
+            "link": {
+                "data": {
+                    "id": 1033504687
+                },
+                "type": "ww-link-section"
+            },
+            "tags": [],
+            "ratio": -1,
+            "hidden": false,
+            "content": {
+                "data": {
+                    "text": {
+                        "new": false,
+                        "anim": {},
+                        "data": {},
+                        "link": {
+                            "data": {},
+                            "type": "none"
+                        },
+                        "tags": [],
+                        "ratio": -1,
+                        "hidden": false,
+                        "content": {
+                            "data": {
+                                "tag": "div",
+                                "font": "",
+                                "size": "",
+                                "text": {
+                                    "fr": "Équipe",
+                                    "en_GB": "New button",
+                                    "fr_FR": "Contexte &amp; Objectifs"
+                                },
+                                "align": "",
+                                "color": "",
+                                "classes": [],
+                                "children": []
+                            },
+                            "type": "ww-text"
+                        },
+                        "children": {},
+                        "paddings": {},
+                        "uniqueId": 14030772292,
+                        "wwVersion": 3
+                    },
+                    "style": {
+                        "padding": 10,
+                        "gradient": {},
+                        "boxShadow": {
+                            "b": 0,
+                            "c": "",
+                            "s": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "borderWidth": 0,
+                        "borderRadius": 50,
+                        "backgroundColor": "#FFFFFF00"
+                    },
+                    "fullWidth": false
+                },
+                "type": "ww-button"
+            },
+            "children": {},
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 10
+                }
+            },
+            "uniqueId": 10010225369,
+            "wwVersion": 3
+        },
+        {
+            "new": false,
+            "anim": {},
+            "data": {},
+            "link": {
+                "data": {
+                    "id": 2049242177
+                },
+                "type": "ww-link-section"
+            },
+            "tags": [],
+            "ratio": -1,
+            "hidden": false,
+            "content": {
+                "data": {
+                    "text": {
+                        "new": false,
+                        "anim": {},
+                        "data": {},
+                        "link": {
+                            "data": {},
+                            "type": "none"
+                        },
+                        "tags": [],
+                        "ratio": -1,
+                        "hidden": false,
+                        "content": {
+                            "data": {
+                                "tag": "div",
+                                "font": "",
+                                "size": "",
+                                "text": {
+                                    "fr": "Proposition financière",
+                                    "en_GB": "New button",
+                                    "fr_FR": "Contexte &amp; Objectifs"
+                                },
+                                "align": "",
+                                "color": "",
+                                "classes": [],
+                                "children": []
+                            },
+                            "type": "ww-text"
+                        },
+                        "children": {},
+                        "paddings": {},
+                        "uniqueId": 10702603562,
+                        "wwVersion": 3
+                    },
+                    "style": {
+                        "padding": 10,
+                        "gradient": {},
+                        "boxShadow": {
+                            "b": 0,
+                            "c": "",
+                            "s": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "borderColor": "#000000",
+                        "borderStyle": "none",
+                        "borderWidth": 0,
+                        "borderRadius": 50,
+                        "backgroundColor": "#FFFFFF00"
+                    },
+                    "fullWidth": false
+                },
+                "type": "ww-button"
+            },
+            "children": {},
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 10
+                }
+            },
+            "uniqueId": 2694246706,
             "wwVersion": 3
         }
     ],
