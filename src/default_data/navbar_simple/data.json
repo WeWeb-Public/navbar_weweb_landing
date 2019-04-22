@@ -298,17 +298,19 @@
                                                         "data": {
                                                             "alt": {
                                                                 "en_GB": "webeo",
-                                                                "fr_FR": "webeo"
+                                                                "fr_FR": "webeo",
+                                                                "fr": "webeo",
+                                                                "en": "webeo"
                                                             },
                                                             "pos": {
-                                                                "top": "2.9694128153605726%",
-                                                                "left": "0%",
-                                                                "width": "100%",
-                                                                "height": "94.06117436927886%"
+                                                                "top": "24.77115427550793%",
+                                                                "left": "33.35683710070098%",
+                                                                "width": "33.28632579859805%",
+                                                                "height": "50.45769144898414%"
                                                             },
-                                                            "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/2/sections/OcaGV1tyIzVxV5uQX566DgH5fZqGm7D8.png",
-                                                            "crop": "98.13084112149532px100p@0.9345794392523364px0p",
-                                                            "zoom": 1,
+                                                            "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/5/sections/yO4MHQQpBE3JOcUleSw3qhncWUXBEb67.png",
+                                                            "crop": "98.15011380718687px100p@0px0p",
+                                                            "zoom": 0.3328632579859805,
                                                             "hover": {
                                                                 "name": "",
                                                                 "options": {}
@@ -335,7 +337,7 @@
                                                                 "w": 1920
                                                             },
                                                             "position": {
-                                                                "x": -0.9345794392523364,
+                                                                "x": 0,
                                                                 "y": 0
                                                             },
                                                             "animation": {
@@ -358,9 +360,15 @@
                                                             "left": 10,
                                                             "right": 0,
                                                             "bottom": 0
+                                                        },
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
                                                         }
                                                     },
-                                                    "uniqueId": 9517654187,
+                                                    "uniqueId": 6346293842,
                                                     "wwVersion": 3
                                                 }
                                             ]
@@ -368,8 +376,21 @@
                                         "type": "ww-row"
                                     },
                                     "children": {},
-                                    "paddings": {},
-                                    "uniqueId": 9629068417,
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
+                                    "uniqueId": 1527973201,
                                     "wwVersion": 3
                                 }
                             ],
@@ -404,8 +425,21 @@
                                     "type": "ww-color"
                                 },
                                 "children": {},
-                                "paddings": {},
-                                "uniqueId": 978405770,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
+                                "uniqueId": 8994976095,
                                 "wwVersion": 3
                             }
                         },
@@ -425,7 +459,7 @@
                                     "content": {
                                         "data": {
                                             "align": "center",
-                                            "justify": "space-evenly",
+                                            "justify": "flex-start",
                                             "wwObjects": [
                                                 {
                                                     "new": false,
@@ -433,7 +467,7 @@
                                                     "data": {},
                                                     "link": {
                                                         "data": {
-                                                            "id": 1447447801
+                                                            "id": 2068590332
                                                         },
                                                         "type": "ww-link-section"
                                                     },
@@ -459,9 +493,8 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
-                                                                            "fr": "Contexte &amp; Objectifs",
-                                                                            "en_GB": "New button",
-                                                                            "fr_FR": "Contexte &amp; Objectifs"
+                                                                            "en": "Our Story",
+                                                                            "fr": "Notre histoire"
                                                                         },
                                                                         "align": "",
                                                                         "color": "",
@@ -471,8 +504,21 @@
                                                                     "type": "ww-text"
                                                                 },
                                                                 "children": {},
-                                                                "paddings": {},
-                                                                "uniqueId": 8184097055,
+                                                                "paddings": {
+                                                                    "xs": {
+                                                                        "top": 0,
+                                                                        "left": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0
+                                                                    },
+                                                                    "md": {
+                                                                        "top": 0,
+                                                                        "left": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0
+                                                                    }
+                                                                },
+                                                                "uniqueId": 990019611,
                                                                 "wwVersion": 3
                                                             },
                                                             "style": {
@@ -496,373 +542,21 @@
                                                         "type": "ww-button"
                                                     },
                                                     "children": {},
-                                                    "paddings": {},
-                                                    "uniqueId": 4828149290,
-                                                    "wwVersion": 3
-                                                },
-                                                {
-                                                    "new": false,
-                                                    "anim": {},
-                                                    "data": {},
-                                                    "link": {
-                                                        "data": {
-                                                            "id": 1529480196
+                                                    "paddings": {
+                                                        "xs": {
+                                                            "top": 0,
+                                                            "left": 20,
+                                                            "right": 0,
+                                                            "bottom": 0
                                                         },
-                                                        "type": "ww-link-section"
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        }
                                                     },
-                                                    "tags": [],
-                                                    "ratio": -1,
-                                                    "hidden": false,
-                                                    "content": {
-                                                        "data": {
-                                                            "text": {
-                                                                "new": false,
-                                                                "anim": {},
-                                                                "data": {},
-                                                                "link": {
-                                                                    "data": {},
-                                                                    "type": "none"
-                                                                },
-                                                                "tags": [],
-                                                                "ratio": -1,
-                                                                "hidden": false,
-                                                                "content": {
-                                                                    "data": {
-                                                                        "tag": "div",
-                                                                        "font": "",
-                                                                        "size": "",
-                                                                        "text": {
-                                                                            "fr": "Méthodologie",
-                                                                            "en_GB": "New button",
-                                                                            "fr_FR": "Méthodologie"
-                                                                        },
-                                                                        "align": "",
-                                                                        "color": "",
-                                                                        "classes": [],
-                                                                        "children": []
-                                                                    },
-                                                                    "type": "ww-text"
-                                                                },
-                                                                "children": {},
-                                                                "paddings": {},
-                                                                "uniqueId": 6037558475,
-                                                                "wwVersion": 3
-                                                            },
-                                                            "style": {
-                                                                "padding": 10,
-                                                                "gradient": {},
-                                                                "boxShadow": {
-                                                                    "b": 0,
-                                                                    "c": "",
-                                                                    "s": 0,
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "borderColor": "#000000",
-                                                                "borderStyle": "none",
-                                                                "borderWidth": 0,
-                                                                "borderRadius": 50,
-                                                                "backgroundColor": "#FFFFFF00"
-                                                            },
-                                                            "fullWidth": false
-                                                        },
-                                                        "type": "ww-button"
-                                                    },
-                                                    "children": {},
-                                                    "paddings": {},
-                                                    "uniqueId": 14216595213,
-                                                    "wwVersion": 3
-                                                },
-                                                {
-                                                    "new": false,
-                                                    "anim": {},
-                                                    "data": {},
-                                                    "link": {
-                                                        "data": {
-                                                            "id": 1036590848
-                                                        },
-                                                        "type": "ww-link-section"
-                                                    },
-                                                    "tags": [],
-                                                    "ratio": -1,
-                                                    "hidden": false,
-                                                    "content": {
-                                                        "data": {
-                                                            "text": {
-                                                                "new": false,
-                                                                "anim": {},
-                                                                "data": {},
-                                                                "link": {
-                                                                    "data": {},
-                                                                    "type": "none"
-                                                                },
-                                                                "tags": [],
-                                                                "ratio": -1,
-                                                                "hidden": false,
-                                                                "content": {
-                                                                    "data": {
-                                                                        "tag": "div",
-                                                                        "font": "",
-                                                                        "size": "",
-                                                                        "text": {
-                                                                            "fr": "Le Marché",
-                                                                            "en_GB": "New button",
-                                                                            "fr_FR": "Le Marché"
-                                                                        },
-                                                                        "align": "",
-                                                                        "color": "",
-                                                                        "classes": [],
-                                                                        "children": []
-                                                                    },
-                                                                    "type": "ww-text"
-                                                                },
-                                                                "children": {},
-                                                                "paddings": {},
-                                                                "uniqueId": 225256510,
-                                                                "wwVersion": 3
-                                                            },
-                                                            "style": {
-                                                                "padding": 10,
-                                                                "gradient": {},
-                                                                "boxShadow": {
-                                                                    "b": 0,
-                                                                    "c": "",
-                                                                    "s": 0,
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "borderColor": "#000000",
-                                                                "borderStyle": "none",
-                                                                "borderWidth": 0,
-                                                                "borderRadius": 50,
-                                                                "backgroundColor": "#FFFFFF00"
-                                                            },
-                                                            "fullWidth": false
-                                                        },
-                                                        "type": "ww-button"
-                                                    },
-                                                    "children": {},
-                                                    "paddings": {},
-                                                    "uniqueId": 254364134,
-                                                    "wwVersion": 3
-                                                },
-                                                {
-                                                    "new": false,
-                                                    "anim": {},
-                                                    "data": {},
-                                                    "link": {
-                                                        "data": {
-                                                            "id": 23
-                                                        },
-                                                        "type": "ww-link-section"
-                                                    },
-                                                    "tags": [],
-                                                    "ratio": -1,
-                                                    "hidden": false,
-                                                    "content": {
-                                                        "data": {
-                                                            "text": {
-                                                                "new": false,
-                                                                "anim": {},
-                                                                "data": {},
-                                                                "link": {
-                                                                    "data": {},
-                                                                    "type": "none"
-                                                                },
-                                                                "tags": [],
-                                                                "ratio": -1,
-                                                                "hidden": false,
-                                                                "content": {
-                                                                    "data": {
-                                                                        "tag": "div",
-                                                                        "font": "",
-                                                                        "size": "",
-                                                                        "text": {
-                                                                            "fr": "Nos références",
-                                                                            "en_GB": "New button",
-                                                                            "fr_FR": "Nos références"
-                                                                        },
-                                                                        "align": "",
-                                                                        "color": "",
-                                                                        "classes": [],
-                                                                        "children": []
-                                                                    },
-                                                                    "type": "ww-text"
-                                                                },
-                                                                "children": {},
-                                                                "paddings": {},
-                                                                "uniqueId": 5791478567,
-                                                                "wwVersion": 3
-                                                            },
-                                                            "style": {
-                                                                "padding": 10,
-                                                                "gradient": {},
-                                                                "boxShadow": {
-                                                                    "b": 0,
-                                                                    "c": "",
-                                                                    "s": 0,
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "borderColor": "#000000",
-                                                                "borderStyle": "none",
-                                                                "borderWidth": 0,
-                                                                "borderRadius": 50,
-                                                                "backgroundColor": "#FFFFFF00"
-                                                            },
-                                                            "fullWidth": false
-                                                        },
-                                                        "type": "ww-button"
-                                                    },
-                                                    "children": {},
-                                                    "paddings": {},
-                                                    "uniqueId": 13558767090,
-                                                    "wwVersion": 3
-                                                },
-                                                {
-                                                    "new": false,
-                                                    "anim": {},
-                                                    "data": {},
-                                                    "link": {
-                                                        "data": {
-                                                            "id": 1033504687
-                                                        },
-                                                        "type": "ww-link-section"
-                                                    },
-                                                    "tags": [],
-                                                    "ratio": -1,
-                                                    "hidden": false,
-                                                    "content": {
-                                                        "data": {
-                                                            "text": {
-                                                                "new": false,
-                                                                "anim": {},
-                                                                "data": {},
-                                                                "link": {
-                                                                    "data": {},
-                                                                    "type": "none"
-                                                                },
-                                                                "tags": [],
-                                                                "ratio": -1,
-                                                                "hidden": false,
-                                                                "content": {
-                                                                    "data": {
-                                                                        "tag": "div",
-                                                                        "font": "",
-                                                                        "size": "",
-                                                                        "text": {
-                                                                            "fr": "Equipe",
-                                                                            "en_GB": "New button",
-                                                                            "fr_FR": "Equipe"
-                                                                        },
-                                                                        "align": "",
-                                                                        "color": "",
-                                                                        "classes": [],
-                                                                        "children": []
-                                                                    },
-                                                                    "type": "ww-text"
-                                                                },
-                                                                "children": {},
-                                                                "paddings": {},
-                                                                "uniqueId": 9251248443,
-                                                                "wwVersion": 3
-                                                            },
-                                                            "style": {
-                                                                "padding": 10,
-                                                                "gradient": {},
-                                                                "boxShadow": {
-                                                                    "b": 0,
-                                                                    "c": "",
-                                                                    "s": 0,
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "borderColor": "#000000",
-                                                                "borderStyle": "none",
-                                                                "borderWidth": 0,
-                                                                "borderRadius": 50,
-                                                                "backgroundColor": "#FFFFFF00"
-                                                            },
-                                                            "fullWidth": false
-                                                        },
-                                                        "type": "ww-button"
-                                                    },
-                                                    "children": {},
-                                                    "paddings": {},
-                                                    "uniqueId": 8443036721,
-                                                    "wwVersion": 3
-                                                },
-                                                {
-                                                    "new": false,
-                                                    "anim": {},
-                                                    "data": {},
-                                                    "link": {
-                                                        "data": {
-                                                            "id": 2049242177
-                                                        },
-                                                        "type": "ww-link-section"
-                                                    },
-                                                    "tags": [],
-                                                    "ratio": -1,
-                                                    "hidden": false,
-                                                    "content": {
-                                                        "data": {
-                                                            "text": {
-                                                                "new": false,
-                                                                "anim": {},
-                                                                "data": {},
-                                                                "link": {
-                                                                    "data": {},
-                                                                    "type": "none"
-                                                                },
-                                                                "tags": [],
-                                                                "ratio": -1,
-                                                                "hidden": false,
-                                                                "content": {
-                                                                    "data": {
-                                                                        "tag": "div",
-                                                                        "font": "",
-                                                                        "size": "",
-                                                                        "text": {
-                                                                            "fr": "Proposition financière",
-                                                                            "en_GB": "New button",
-                                                                            "fr_FR": "Proposition financière"
-                                                                        },
-                                                                        "align": "",
-                                                                        "color": "",
-                                                                        "classes": [],
-                                                                        "children": []
-                                                                    },
-                                                                    "type": "ww-text"
-                                                                },
-                                                                "children": {},
-                                                                "paddings": {},
-                                                                "uniqueId": 3096795702,
-                                                                "wwVersion": 3
-                                                            },
-                                                            "style": {
-                                                                "padding": 10,
-                                                                "gradient": {},
-                                                                "boxShadow": {
-                                                                    "b": 0,
-                                                                    "c": "",
-                                                                    "s": 0,
-                                                                    "x": 0,
-                                                                    "y": 0
-                                                                },
-                                                                "borderColor": "#000000",
-                                                                "borderStyle": "none",
-                                                                "borderWidth": 0,
-                                                                "borderRadius": 50,
-                                                                "backgroundColor": "#FFFFFF00"
-                                                            },
-                                                            "fullWidth": false
-                                                        },
-                                                        "type": "ww-button"
-                                                    },
-                                                    "children": {},
-                                                    "paddings": {},
-                                                    "uniqueId": 10754147903,
+                                                    "uniqueId": 4835531661,
                                                     "wwVersion": 3
                                                 }
                                             ]
@@ -870,8 +564,21 @@
                                         "type": "ww-row"
                                     },
                                     "children": {},
-                                    "paddings": {},
-                                    "uniqueId": 13723802009,
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
+                                    "uniqueId": 13027074047,
                                     "wwVersion": 3
                                 }
                             ],
@@ -906,8 +613,21 @@
                                     "type": "ww-color"
                                 },
                                 "children": {},
-                                "paddings": {},
-                                "uniqueId": 13444658965,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
+                                "uniqueId": 4389047471,
                                 "wwVersion": 3
                             }
                         },
@@ -959,9 +679,8 @@
                                                                         "font": "",
                                                                         "size": "",
                                                                         "text": {
-                                                                            "fr": "Nous contacter",
-                                                                            "en_GB": "New button",
-                                                                            "fr_FR": "Nous contacter"
+                                                                            "en": "Contact Us",
+                                                                            "fr": "Nous contacter"
                                                                         },
                                                                         "align": "",
                                                                         "color": "",
@@ -971,8 +690,21 @@
                                                                     "type": "ww-text"
                                                                 },
                                                                 "children": {},
-                                                                "paddings": {},
-                                                                "uniqueId": 7284719981,
+                                                                "paddings": {
+                                                                    "xs": {
+                                                                        "top": 0,
+                                                                        "left": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0
+                                                                    },
+                                                                    "md": {
+                                                                        "top": 0,
+                                                                        "left": 0,
+                                                                        "right": 0,
+                                                                        "bottom": 0
+                                                                    }
+                                                                },
+                                                                "uniqueId": 4583855708,
                                                                 "wwVersion": 3
                                                             },
                                                             "style": {
@@ -996,8 +728,21 @@
                                                         "type": "ww-button"
                                                     },
                                                     "children": {},
-                                                    "paddings": {},
-                                                    "uniqueId": 4747331679,
+                                                    "paddings": {
+                                                        "xs": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        },
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        }
+                                                    },
+                                                    "uniqueId": 5833799657,
                                                     "wwVersion": 3
                                                 }
                                             ]
@@ -1005,8 +750,21 @@
                                         "type": "ww-row"
                                     },
                                     "children": {},
-                                    "paddings": {},
-                                    "uniqueId": 15126134641,
+                                    "paddings": {
+                                        "xs": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
+                                        }
+                                    },
+                                    "uniqueId": 13792623648,
                                     "wwVersion": 3
                                 }
                             ],
@@ -1041,8 +799,21 @@
                                     "type": "ww-color"
                                 },
                                 "children": {},
-                                "paddings": {},
-                                "uniqueId": 7172441131,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
+                                "uniqueId": 14477251252,
                                 "wwVersion": 3
                             }
                         },
@@ -1100,8 +871,21 @@
                                                         "type": "ww-icon"
                                                     },
                                                     "children": {},
-                                                    "paddings": {},
-                                                    "uniqueId": 2684374223,
+                                                    "paddings": {
+                                                        "xs": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        },
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        }
+                                                    },
+                                                    "uniqueId": 10542331915,
                                                     "wwVersion": 3
                                                 }
                                             ]
@@ -1115,9 +899,15 @@
                                             "left": 0,
                                             "right": 20,
                                             "bottom": 0
+                                        },
+                                        "md": {
+                                            "top": 0,
+                                            "left": 0,
+                                            "right": 0,
+                                            "bottom": 0
                                         }
                                     },
-                                    "uniqueId": 4885603478,
+                                    "uniqueId": 13914081574,
                                     "wwVersion": 3
                                 }
                             ],
@@ -1152,8 +942,21 @@
                                     "type": "ww-color"
                                 },
                                 "children": {},
-                                "paddings": {},
-                                "uniqueId": 14115011048,
+                                "paddings": {
+                                    "xs": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    },
+                                    "md": {
+                                        "top": 0,
+                                        "left": 0,
+                                        "right": 0,
+                                        "bottom": 0
+                                    }
+                                },
+                                "uniqueId": 13118226222,
                                 "wwVersion": 3
                             }
                         }
@@ -1162,8 +965,21 @@
                 "type": "ww-columns"
             },
             "children": {},
-            "paddings": {},
-            "uniqueId": 358871947,
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
+            "uniqueId": 8985624842,
             "wwVersion": 3
         }
     ],
@@ -1174,7 +990,7 @@
             "data": {},
             "link": {
                 "data": {
-                    "id": 1447447801
+                    "id": 2068590332
                 },
                 "type": "ww-link-section"
             },
@@ -1200,9 +1016,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr": "Contexte &amp; Objectifs",
-                                    "en_GB": "New button",
-                                    "fr_FR": "Contexte &amp; Objectifs"
+                                    "en": "Our Story",
+                                    "fr": "Notre histoire"
                                 },
                                 "align": "",
                                 "color": "",
@@ -1212,8 +1027,21 @@
                             "type": "ww-text"
                         },
                         "children": {},
-                        "paddings": {},
-                        "uniqueId": 6827543585,
+                        "paddings": {
+                            "xs": {
+                                "top": 0,
+                                "left": 0,
+                                "right": 0,
+                                "bottom": 0
+                            },
+                            "md": {
+                                "top": 0,
+                                "left": 0,
+                                "right": 0,
+                                "bottom": 0
+                            }
+                        },
+                        "uniqueId": 4802194331,
                         "wwVersion": 3
                     },
                     "style": {
@@ -1243,409 +1071,15 @@
                     "left": 0,
                     "right": 0,
                     "bottom": 10
-                }
-            },
-            "uniqueId": 2148714563,
-            "wwVersion": 3
-        },
-        {
-            "new": false,
-            "anim": {},
-            "data": {},
-            "link": {
-                "data": {
-                    "id": 1529480196
                 },
-                "type": "ww-link-section"
-            },
-            "tags": [],
-            "ratio": -1,
-            "hidden": false,
-            "content": {
-                "data": {
-                    "text": {
-                        "new": false,
-                        "anim": {},
-                        "data": {},
-                        "link": {
-                            "data": {},
-                            "type": "none"
-                        },
-                        "tags": [],
-                        "ratio": -1,
-                        "hidden": false,
-                        "content": {
-                            "data": {
-                                "tag": "div",
-                                "font": "",
-                                "size": "",
-                                "text": {
-                                    "fr": "Méthodologie",
-                                    "en_GB": "New button",
-                                    "fr_FR": "Contexte &amp; Objectifs"
-                                },
-                                "align": "",
-                                "color": "",
-                                "classes": [],
-                                "children": []
-                            },
-                            "type": "ww-text"
-                        },
-                        "children": {},
-                        "paddings": {},
-                        "uniqueId": 13795375725,
-                        "wwVersion": 3
-                    },
-                    "style": {
-                        "padding": 10,
-                        "gradient": {},
-                        "boxShadow": {
-                            "b": 0,
-                            "c": "",
-                            "s": 0,
-                            "x": 0,
-                            "y": 0
-                        },
-                        "borderColor": "#000000",
-                        "borderStyle": "none",
-                        "borderWidth": 0,
-                        "borderRadius": 50,
-                        "backgroundColor": "#FFFFFF00"
-                    },
-                    "fullWidth": false
-                },
-                "type": "ww-button"
-            },
-            "children": {},
-            "paddings": {
-                "xs": {
+                "md": {
                     "top": 0,
                     "left": 0,
                     "right": 0,
-                    "bottom": 10
+                    "bottom": 0
                 }
             },
-            "uniqueId": 5329414418,
-            "wwVersion": 3
-        },
-        {
-            "new": false,
-            "anim": {},
-            "data": {},
-            "link": {
-                "data": {
-                    "id": 1036590848
-                },
-                "type": "ww-link-section"
-            },
-            "tags": [],
-            "ratio": -1,
-            "hidden": false,
-            "content": {
-                "data": {
-                    "text": {
-                        "new": false,
-                        "anim": {},
-                        "data": {},
-                        "link": {
-                            "data": {},
-                            "type": "none"
-                        },
-                        "tags": [],
-                        "ratio": -1,
-                        "hidden": false,
-                        "content": {
-                            "data": {
-                                "tag": "div",
-                                "font": "",
-                                "size": "",
-                                "text": {
-                                    "fr": "Le Marché",
-                                    "en_GB": "New button",
-                                    "fr_FR": "Contexte &amp; Objectifs"
-                                },
-                                "align": "",
-                                "color": "",
-                                "classes": [],
-                                "children": []
-                            },
-                            "type": "ww-text"
-                        },
-                        "children": {},
-                        "paddings": {},
-                        "uniqueId": 14400597377,
-                        "wwVersion": 3
-                    },
-                    "style": {
-                        "padding": 10,
-                        "gradient": {},
-                        "boxShadow": {
-                            "b": 0,
-                            "c": "",
-                            "s": 0,
-                            "x": 0,
-                            "y": 0
-                        },
-                        "borderColor": "#000000",
-                        "borderStyle": "none",
-                        "borderWidth": 0,
-                        "borderRadius": 50,
-                        "backgroundColor": "#FFFFFF00"
-                    },
-                    "fullWidth": false
-                },
-                "type": "ww-button"
-            },
-            "children": {},
-            "paddings": {
-                "xs": {
-                    "top": 0,
-                    "left": 0,
-                    "right": 0,
-                    "bottom": 10
-                }
-            },
-            "uniqueId": 13027055328,
-            "wwVersion": 3
-        },
-        {
-            "new": false,
-            "anim": {},
-            "data": {},
-            "link": {
-                "data": {
-                    "id": 23
-                },
-                "type": "ww-link-section"
-            },
-            "tags": [],
-            "ratio": -1,
-            "hidden": false,
-            "content": {
-                "data": {
-                    "text": {
-                        "new": false,
-                        "anim": {},
-                        "data": {},
-                        "link": {
-                            "data": {},
-                            "type": "none"
-                        },
-                        "tags": [],
-                        "ratio": -1,
-                        "hidden": false,
-                        "content": {
-                            "data": {
-                                "tag": "div",
-                                "font": "",
-                                "size": "",
-                                "text": {
-                                    "fr": "Nos références",
-                                    "en_GB": "New button",
-                                    "fr_FR": "Contexte &amp; Objectifs"
-                                },
-                                "align": "",
-                                "color": "",
-                                "classes": [],
-                                "children": []
-                            },
-                            "type": "ww-text"
-                        },
-                        "children": {},
-                        "paddings": {},
-                        "uniqueId": 1463051755,
-                        "wwVersion": 3
-                    },
-                    "style": {
-                        "padding": 10,
-                        "gradient": {},
-                        "boxShadow": {
-                            "b": 0,
-                            "c": "",
-                            "s": 0,
-                            "x": 0,
-                            "y": 0
-                        },
-                        "borderColor": "#000000",
-                        "borderStyle": "none",
-                        "borderWidth": 0,
-                        "borderRadius": 50,
-                        "backgroundColor": "#FFFFFF00"
-                    },
-                    "fullWidth": false
-                },
-                "type": "ww-button"
-            },
-            "children": {},
-            "paddings": {
-                "xs": {
-                    "top": 0,
-                    "left": 0,
-                    "right": 0,
-                    "bottom": 10
-                }
-            },
-            "uniqueId": 14384937717,
-            "wwVersion": 3
-        },
-        {
-            "new": false,
-            "anim": {},
-            "data": {},
-            "link": {
-                "data": {
-                    "id": 1033504687
-                },
-                "type": "ww-link-section"
-            },
-            "tags": [],
-            "ratio": -1,
-            "hidden": false,
-            "content": {
-                "data": {
-                    "text": {
-                        "new": false,
-                        "anim": {},
-                        "data": {},
-                        "link": {
-                            "data": {},
-                            "type": "none"
-                        },
-                        "tags": [],
-                        "ratio": -1,
-                        "hidden": false,
-                        "content": {
-                            "data": {
-                                "tag": "div",
-                                "font": "",
-                                "size": "",
-                                "text": {
-                                    "fr": "Équipe",
-                                    "en_GB": "New button",
-                                    "fr_FR": "Contexte &amp; Objectifs"
-                                },
-                                "align": "",
-                                "color": "",
-                                "classes": [],
-                                "children": []
-                            },
-                            "type": "ww-text"
-                        },
-                        "children": {},
-                        "paddings": {},
-                        "uniqueId": 14030772292,
-                        "wwVersion": 3
-                    },
-                    "style": {
-                        "padding": 10,
-                        "gradient": {},
-                        "boxShadow": {
-                            "b": 0,
-                            "c": "",
-                            "s": 0,
-                            "x": 0,
-                            "y": 0
-                        },
-                        "borderColor": "#000000",
-                        "borderStyle": "none",
-                        "borderWidth": 0,
-                        "borderRadius": 50,
-                        "backgroundColor": "#FFFFFF00"
-                    },
-                    "fullWidth": false
-                },
-                "type": "ww-button"
-            },
-            "children": {},
-            "paddings": {
-                "xs": {
-                    "top": 0,
-                    "left": 0,
-                    "right": 0,
-                    "bottom": 10
-                }
-            },
-            "uniqueId": 10010225369,
-            "wwVersion": 3
-        },
-        {
-            "new": false,
-            "anim": {},
-            "data": {},
-            "link": {
-                "data": {
-                    "id": 2049242177
-                },
-                "type": "ww-link-section"
-            },
-            "tags": [],
-            "ratio": -1,
-            "hidden": false,
-            "content": {
-                "data": {
-                    "text": {
-                        "new": false,
-                        "anim": {},
-                        "data": {},
-                        "link": {
-                            "data": {},
-                            "type": "none"
-                        },
-                        "tags": [],
-                        "ratio": -1,
-                        "hidden": false,
-                        "content": {
-                            "data": {
-                                "tag": "div",
-                                "font": "",
-                                "size": "",
-                                "text": {
-                                    "fr": "Proposition financière",
-                                    "en_GB": "New button",
-                                    "fr_FR": "Contexte &amp; Objectifs"
-                                },
-                                "align": "",
-                                "color": "",
-                                "classes": [],
-                                "children": []
-                            },
-                            "type": "ww-text"
-                        },
-                        "children": {},
-                        "paddings": {},
-                        "uniqueId": 10702603562,
-                        "wwVersion": 3
-                    },
-                    "style": {
-                        "padding": 10,
-                        "gradient": {},
-                        "boxShadow": {
-                            "b": 0,
-                            "c": "",
-                            "s": 0,
-                            "x": 0,
-                            "y": 0
-                        },
-                        "borderColor": "#000000",
-                        "borderStyle": "none",
-                        "borderWidth": 0,
-                        "borderRadius": 50,
-                        "backgroundColor": "#FFFFFF00"
-                    },
-                    "fullWidth": false
-                },
-                "type": "ww-button"
-            },
-            "children": {},
-            "paddings": {
-                "xs": {
-                    "top": 0,
-                    "left": 0,
-                    "right": 0,
-                    "bottom": 10
-                }
-            },
-            "uniqueId": 2694246706,
+            "uniqueId": 3673575876,
             "wwVersion": 3
         }
     ],
@@ -1662,14 +1096,39 @@
         "hidden": false,
         "content": {
             "data": {
-                "style": {},
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                },
                 "backgroundColor": "#FFFFFF"
             },
             "type": "ww-color"
         },
         "children": {},
-        "paddings": {},
-        "uniqueId": 14354209481,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "uniqueId": 7045297169,
         "wwVersion": 3
     },
     "appearPercent": 50,
@@ -1686,13 +1145,39 @@
         "hidden": false,
         "content": {
             "data": {
-                "backgroundColor": "#FFFFFF"
+                "backgroundColor": "#FFFFFF",
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                }
             },
             "type": "ww-color"
         },
         "children": {},
-        "paddings": {},
-        "uniqueId": 8200886230,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "uniqueId": 1753408431,
         "wwVersion": 3
     }
 }

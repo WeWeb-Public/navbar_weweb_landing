@@ -2,10 +2,10 @@ module.exports = [
     {
         name: 'navbar_simple',
         storeName: {
-            en: "JLL navbar"
+            en: "Navigation Bar"
         },
         storeDesc: {
-            en: "JLL navbar"
+            en: "Navigation Bar"
         }
     }
 ]
