@@ -1,6 +1,6 @@
 module.exports = [
     {
-        name: 'navbar_simple',
+        name: 'weweb_landing',
         storeName: {
             en: "Navigation Bar"
         },

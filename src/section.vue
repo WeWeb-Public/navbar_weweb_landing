@@ -5,24 +5,38 @@
 <!-- This is your HTML -->
 <template>
     <div class="navbar_A" ww-fixed>
-        <div class="placeholder" v-if="section.data.appearPercent == null">
-            <!-- wwManager:start -->
-            <div class="placeholder-infos">Placeholder for navbar_A
-                <br>Place navbar_A on top of the section list to hide this
-            </div>
-            <!-- wwManager:end -->
-        </div>
-        <div class="navbar-top" :class="{'show': show, 'no-anim': section.data.appearPercent == null}">
+        <div class="navbar-top">
             <div class="container">
                 <!-- wwManager:start -->
                 <wwSectionEditMenu size="small" :sectionCtrl="sectionCtrl" :options="openOptions"></wwSectionEditMenu>
                 <!-- wwManager:end -->
                 <!-- Weweb Wallpaper -->
-                <wwObject class="background" :ww-object="section.data.background" ww-category="background"></wwObject>
+                <div class="content" :class="{'shadow':scrollStarted}">
+                    <wwObject v-if="scrollStarted" class="background" :ww-object="section.data.background" ww-category="background"></wwObject>
 
-                <wwLayoutColumn tag="div" ww-default="ww-row" :ww-list="section.data.rows" class="content" @ww-add="add(section.data.rows, $event)" @ww-remove="remove(section.data.rows, $event)">
-                    <wwObject v-for="row in section.data.rows" :key="row.uniqueId" :ww-object="row"></wwObject>
-                </wwLayoutColumn>
+                    <div class="logo-container">
+                        <div class="logo" :class="{'smaller':scrollStarted}">
+                            <wwObject :ww-object="section.data.logo" ww-no-twic-pics="true"></wwObject>
+                        </div>
+                    </div>
+
+                    <wwLayoutColumn v-if="!scrollStarted" class="left-row" tag="div" ww-default="ww-row" :ww-list="section.data.leftRowAtScrollTop" @ww-add="add(section.data.leftRowAtScrollTop, $event)" @ww-remove="remove(section.data.leftRowAtScrollTop, $event)">
+                        <wwObject v-for="row in section.data.leftRowAtScrollTop" :key="row.uniqueId" :ww-object="row"></wwObject>
+                    </wwLayoutColumn>
+
+                    <wwLayoutColumn v-if="!scrollStarted" class="right-row" tag="div" ww-default="ww-row" :ww-list="section.data.rightRowAtScrollTop" @ww-add="add(section.data.rightRowAtScrollTop, $event)" @ww-remove="remove(section.data.rightRowAtScrollTop, $event)">
+                        <wwObject v-for="row in section.data.rightRowAtScrollTop" :key="row.uniqueId" :ww-object="row"></wwObject>
+                    </wwLayoutColumn>
+
+                    <transition name="slide-fade">
+                        <wwLayoutColumn v-if="scrollStarted" class="left-row" tag="div" ww-default="ww-row" :ww-list="section.data.leftRow" @ww-add="add(section.data.leftRow, $event)" @ww-remove="remove(section.data.leftRow, $event)">
+                            <wwObject v-for="row in section.data.leftRow" :key="row.uniqueId" :ww-object="row"></wwObject>
+                        </wwLayoutColumn>
+                    </transition>
+                    <wwLayoutColumn v-if="scrollStarted" class="right-row" tag="div" ww-default="ww-row" :ww-list="section.data.rightRow" @ww-add="add(section.data.rightRow, $event)" @ww-remove="remove(section.data.rightRow, $event)">
+                        <wwObject v-for="row in section.data.rightRow" :key="row.uniqueId" :ww-object="row"></wwObject>
+                    </wwLayoutColumn>
+                </div>
             </div>
         </div>
         <div class="navbar-side">
@@ -44,26 +58,6 @@
 <!-- This is your Javascript -->
 <!-- ✨ Here comes the magic ✨ -->
 <script>
-/* wwManager:start */
-import navbarAAppearPercent from './navbarAAppearPercent.vue'
-wwLib.wwPopups.addPopup('navbarAAppearPercent', navbarAAppearPercent);
-wwLib.wwPopups.addStory('NAVBAR_A_APPEAR_PERCENT', {
-    title: {
-        en: 'Scroll appear percent',
-        fr: 'Pourcentage de scroll avant apparition'
-    },
-    type: 'navbarAAppearPercent',
-    buttons: {
-        FINISH: {
-            text: {
-                en: 'Finish',
-                fr: 'Terminer'
-            },
-            next: false
-        }
-    }
-});
-/* wwManager:end */
 
 export default {
     name: "__COMPONENT_NAME__",
@@ -75,7 +69,8 @@ export default {
         return {
             windowHeight: 0,
             show: false,
-            navbarOpen: false
+            navbarOpen: false,
+            scrollStarted: false
         }
     },
     computed: {
@@ -88,8 +83,8 @@ export default {
     },
     methods: {
         init() {
-            window.addEventListener('scroll', this.onScroll);
-            window.addEventListener('resize', this.onResize);
+            window.addEventListener('scroll', this.onScroll, { passive: true });
+            window.addEventListener('resize', this.onResize, { passive: true });
 
             wwLib.$on('wwNavbar:toggle', this.toggleNavbar);
         },
@@ -121,30 +116,17 @@ export default {
           SHOW / HIDE NAVBAR TOP
         \================================================================================================*/
         onScroll() {
-            this.setScrollPercent();
+            try {
+                const scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+                this.scrollStarted = (scrollTop > 0);
+            } catch (error) {
+                console.log(error)
+            }
         },
         onResize() {
             const e = document.documentElement;
             const g = document.getElementsByTagName('body')[0];
             this.windowHeight = window.innerHeight || e.clientHeight || g.clientHeight;
-
-            this.setScrollPercent();
-        },
-        setScrollPercent() {
-            if (this.section.data.appearPercent == null) {
-                this.show = true;
-                return;
-            }
-
-            const scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
-
-            let scrollPercent = Math.max(0, 100 * scrollTop / this.windowHeight) - 0.0001;
-
-            if (this.windowHeight + scrollTop >= document.body.clientHeight) {
-                scrollPercent = 99999999;
-            }
-
-            this.show = scrollPercent >= this.section.data.appearPercent;
         },
 
         /*=============================================m_ÔÔ_m=============================================\
@@ -161,30 +143,6 @@ export default {
 
             this.sectionCtrl.update(this.section);
         },
-
-        async openOptions() {
-            let options = {
-                firstPage: 'NAVBAR_A_APPEAR_PERCENT',
-                data: {
-                    navbarAPercent: this.section.data.appearPercent
-                },
-            }
-
-            try {
-
-                const result = await wwLib.wwPopups.open(options)
-
-                if (typeof (result.navbarAPercent) !== 'undefinded') {
-                    this.section.data.appearPercent = result.navbarAPercent;
-                    this.sectionCtrl.update(this.section);
-                    this.onScroll();
-                }
-
-            } catch (error) {
-
-            }
-        }
-        /* wwManager:end */
     },
     mounted() {
         this.init();
@@ -196,24 +154,42 @@ export default {
         //Initialize section data
         this.section.data = this.section.data || {};
 
-        if (!this.section.data.appearPercent) {
-            this.section.data.appearPercent = null;
-            needUpdate = false;
-        }
-
-        if (!this.section.data.rows) {
-            this.section.data.rows = [];
-            needUpdate = true;
-        }
-        if (!this.section.data.rowsSide) {
-            this.section.data.rowsSide = [];
-            needUpdate = true;
-        }
 
         if (!this.section.data.background) {
             this.section.data.background = wwLib.wwObject.getDefault({ type: 'ww-color', data: { backgroundColor: '#FFFFFF' } });
             needUpdate = true;
         }
+
+        if (!this.section.data.logo) {
+            this.section.data.logo = wwLib.wwObject.getDefault({ type: 'ww-image' });
+            needUpdate = true;
+        }
+
+        if (!this.section.data.leftRow) {
+            this.section.data.leftRow = [];
+            needUpdate = true;
+        }
+
+        if (!this.section.data.rightRow) {
+            this.section.data.rightRow = [];
+            needUpdate = true;
+        }
+
+        if (!this.section.data.leftRowAtScrollTop) {
+            this.section.data.leftRowAtScrollTop = [];
+            needUpdate = true;
+        }
+
+        if (!this.section.data.rightRowAtScrollTop) {
+            this.section.data.rightRowAtScrollTop = [];
+            needUpdate = true;
+        }
+
+        if (!this.section.data.rowsSide) {
+            this.section.data.rowsSide = [];
+            needUpdate = true;
+        }
+
         if (!this.section.data.backgroundSide) {
             this.section.data.backgroundSide = wwLib.wwObject.getDefault({ type: 'ww-color', data: { backgroundColor: '#FFFFFF' } });
             needUpdate = true;
@@ -248,31 +224,10 @@ export default {
 </style>
 
 <style scoped lang="scss">
-$navbar-width: 400px;
+$navbar-width: 330px;
 
 .navbar_A {
     width: 100%;
-
-    .placeholder {
-        min-height: 70px;
-        position: relative;
-
-        /* wwManager:start */
-        .placeholder-infos {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            background-color: #d6d6d6;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: black;
-            text-align: center;
-        }
-        /* wwManager:end */
-    }
 
     .navbar-cover {
         display: none;
@@ -294,13 +249,6 @@ $navbar-width: 400px;
         top: 0;
         z-index: 101;
 
-        transition: transform 0.3s ease;
-        transform: translateY(calc(-100% - 10px));
-
-        &.show {
-            transform: translateY(0);
-        }
-
         .container {
             width: 100%;
             height: 70px;
@@ -308,10 +256,6 @@ $navbar-width: 400px;
 
             &.navbar_A-open {
                 transform: translateX(-$navbar-width);
-            }
-
-            &.no-anim {
-                transition: none;
             }
 
             .background {
@@ -323,6 +267,32 @@ $navbar-width: 400px;
             }
             .content {
                 position: relative;
+                display: flex;
+                align-items: center;
+                transition: box-shadow 0.3s ease;
+                &.shadow {
+                    box-shadow: 0 3px 10px 3px #dedede;
+                }
+                .logo-container {
+                    padding-left: 5%;
+                    transition: all 2s ease;
+                    flex-basis: 20%;
+                    .logo {
+                        width: 110px;
+                        &.smaller {
+                            transform: scale3d(0.8, 0.8, 0.8);
+                        }
+                    }
+                }
+
+                .left-row {
+                    width: auto;
+                    flex-basis: 60%;
+                }
+                .right-row {
+                    flex-basis: 20%;
+                    width: 500px;
+                }
             }
         }
     }
@@ -365,6 +335,13 @@ $navbar-width: 400px;
                 overflow-x: hidden;
             }
         }
+    }
+    .slide-fade-enter-active {
+        transition: all 0.3s ease;
+    }
+    .slide-fade-enter {
+        transform: translateX(10px);
+        opacity: 0;
     }
 }
 </style>

@@ -1,0 +1,1472 @@
+{
+    "background": {
+        "uniqueId": 14387594129,
+        "wwVersion": 3,
+        "content": {
+            "type": "ww-color",
+            "data": {
+                "backgroundColor": "#FFFFFF",
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                }
+            }
+        },
+        "link": {
+            "type": "none",
+            "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+    },
+    "logo": {
+        "uniqueId": 10875032327,
+        "wwVersion": 3,
+        "content": {
+            "type": "ww-image",
+            "data": {
+                "url": "https://cdn.weweb.app/designs/5/sections/YLApP7WNFXN9ryw2AmW2aPjrOGIx5sNy.png",
+                "alt": "",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "pos": {
+                    "left": "0%",
+                    "top": "0%",
+                    "width": "100%",
+                    "height": "100%"
+                },
+                "zoom": 1,
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "overlay": null,
+                    "filter": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                },
+                "animation": {
+                    "duration": 0,
+                    "delay": 0,
+                    "fn": null,
+                    "opacity": 1,
+                    "scale": 1,
+                    "translateX": 0,
+                    "translateY": 0,
+                    "rotate": 0
+                },
+                "imgSize": {
+                    "w": 1920,
+                    "h": 1080
+                },
+                "hover": {
+                    "name": "",
+                    "options": {}
+                },
+                "focusPoint": [
+                    50,
+                    50
+                ],
+                "crop": {
+                    "cw": 99.33774834437087,
+                    "ch": 83.73675258406384,
+                    "cx": 0,
+                    "cy": 8.131623707968078
+                }
+            }
+        },
+        "link": {
+            "type": "none",
+            "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+    },
+    "leftRow": [
+        {
+            "uniqueId": 6473756079,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-row",
+                "data": {
+                    "wwObjects": [
+                        {
+                            "uniqueId": 1065056056,
+                            "wwVersion": 3,
+                            "content": {
+                                "type": "ww-dropdown-triangle",
+                                "data": {
+                                    "dropDownIcon": {
+                                        "uniqueId": 14527813056,
+                                        "wwVersion": 3,
+                                        "content": {
+                                            "type": "ww-icon",
+                                            "data": {
+                                                "icon": "fas fa-angle-down",
+                                                "style": {
+                                                    "backgroundColor": "#FFFFFF00",
+                                                    "borderWidth": 0,
+                                                    "size": 15,
+                                                    "fontSize": 15,
+                                                    "color": "#5E5E5E",
+                                                    "gradient": {},
+                                                    "borderRadius": 50,
+                                                    "borderColor": "#000000",
+                                                    "borderStyle": "solid",
+                                                    "boxShadow": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "b": 0,
+                                                        "s": 0,
+                                                        "c": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "link": {
+                                            "type": "none",
+                                            "data": {}
+                                        },
+                                        "ratio": -1,
+                                        "paddings": {
+                                            "xs": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            },
+                                            "md": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            }
+                                        },
+                                        "hidden": false,
+                                        "tags": [],
+                                        "children": {},
+                                        "data": {},
+                                        "anim": {}
+                                    },
+                                    "dropDownButton": {
+                                        "uniqueId": 5130247699,
+                                        "wwVersion": 3,
+                                        "content": {
+                                            "type": "ww-button",
+                                            "data": {
+                                                "text": {
+                                                    "uniqueId": 6984755990,
+                                                    "wwVersion": 3,
+                                                    "content": {
+                                                        "type": "ww-text",
+                                                        "data": {
+                                                            "text": {
+                                                                "fr": "<p>Nouveau bouton</p>",
+                                                                "en": "<p><span style=\"color: rgb(94, 94, 94);\">Features</span></p>"
+                                                            },
+                                                            "tag": "div",
+                                                            "align": "",
+                                                            "font": "",
+                                                            "size": "",
+                                                            "color": "",
+                                                            "classes": [],
+                                                            "children": [],
+                                                            "fontStyle": "",
+                                                            "_q": {
+                                                                "fr": true,
+                                                                "en": true
+                                                            }
+                                                        }
+                                                    },
+                                                    "link": {
+                                                        "type": "none",
+                                                        "data": {}
+                                                    },
+                                                    "ratio": -1,
+                                                    "paddings": {
+                                                        "xs": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        },
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        }
+                                                    },
+                                                    "hidden": false,
+                                                    "tags": [],
+                                                    "children": {},
+                                                    "data": {},
+                                                    "anim": {}
+                                                },
+                                                "style": {
+                                                    "backgroundColor": "#FFFFFF00",
+                                                    "borderWidth": 0,
+                                                    "gradient": "",
+                                                    "borderRadius": 50,
+                                                    "borderColor": "#000000",
+                                                    "borderStyle": "solid",
+                                                    "padding": 10,
+                                                    "justify": null,
+                                                    "boxShadow": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "b": 0,
+                                                        "s": 0,
+                                                        "c": ""
+                                                    }
+                                                },
+                                                "fullWidth": false
+                                            }
+                                        },
+                                        "link": {
+                                            "type": "none",
+                                            "data": {}
+                                        },
+                                        "ratio": -1,
+                                        "paddings": {
+                                            "xs": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            },
+                                            "md": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            }
+                                        },
+                                        "hidden": false,
+                                        "tags": [],
+                                        "children": {},
+                                        "data": {},
+                                        "anim": {}
+                                    },
+                                    "style": {
+                                        "justify": null
+                                    },
+                                    "title": null,
+                                    "background": null,
+                                    "list": [
+                                        {
+                                            "uniqueId": 14028977514,
+                                            "wwVersion": 3,
+                                            "content": {
+                                                "type": "ww-row",
+                                                "data": {
+                                                    "wwObjects": [
+                                                        {
+                                                            "uniqueId": 13985533545,
+                                                            "wwVersion": 3,
+                                                            "content": {
+                                                                "type": "ww-icon",
+                                                                "data": {
+                                                                    "icon": "wwi wwi-edit",
+                                                                    "style": {
+                                                                        "color": "#5E5E5E",
+                                                                        "backgroundColor": "#FFFFFF",
+                                                                        "gradient": {},
+                                                                        "borderRadius": 0,
+                                                                        "borderWidth": 0,
+                                                                        "borderColor": "#000000",
+                                                                        "borderStyle": "none",
+                                                                        "boxShadow": {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "b": 0,
+                                                                            "s": 0,
+                                                                            "c": ""
+                                                                        },
+                                                                        "size": 40,
+                                                                        "fontSize": 20
+                                                                    }
+                                                                }
+                                                            },
+                                                            "link": {
+                                                                "type": "none",
+                                                                "data": {}
+                                                            },
+                                                            "ratio": -1,
+                                                            "paddings": {
+                                                                "xs": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                },
+                                                                "md": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                }
+                                                            },
+                                                            "hidden": false,
+                                                            "tags": [],
+                                                            "children": {},
+                                                            "data": {},
+                                                            "anim": {}
+                                                        },
+                                                        {
+                                                            "uniqueId": 14527537969,
+                                                            "wwVersion": 3,
+                                                            "content": {
+                                                                "type": "ww-text",
+                                                                "data": {
+                                                                    "text": {
+                                                                        "fr": "<p>Nouveau texte</p>",
+                                                                        "en": "<p><span style=\"color: rgb(94, 94, 94);\">Editor</span></p>"
+                                                                    },
+                                                                    "tag": "div",
+                                                                    "align": "",
+                                                                    "font": "",
+                                                                    "size": "",
+                                                                    "color": "",
+                                                                    "classes": [],
+                                                                    "children": [],
+                                                                    "fontStyle": "",
+                                                                    "_q": {
+                                                                        "fr": true,
+                                                                        "en": true
+                                                                    }
+                                                                }
+                                                            },
+                                                            "link": {
+                                                                "type": "none",
+                                                                "data": {}
+                                                            },
+                                                            "ratio": -1,
+                                                            "paddings": {
+                                                                "xs": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                },
+                                                                "md": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 20,
+                                                                    "bottom": 0
+                                                                }
+                                                            },
+                                                            "hidden": false,
+                                                            "tags": [],
+                                                            "children": {},
+                                                            "data": {},
+                                                            "anim": {}
+                                                        }
+                                                    ],
+                                                    "align": "center",
+                                                    "justify": "flex-start"
+                                                }
+                                            },
+                                            "link": {
+                                                "type": "none",
+                                                "data": {}
+                                            },
+                                            "ratio": -1,
+                                            "paddings": {
+                                                "xs": {
+                                                    "top": 0,
+                                                    "left": 0,
+                                                    "right": 0,
+                                                    "bottom": 0
+                                                },
+                                                "md": {
+                                                    "top": 0,
+                                                    "left": 0,
+                                                    "right": 0,
+                                                    "bottom": 0
+                                                }
+                                            },
+                                            "hidden": false,
+                                            "tags": [],
+                                            "children": {},
+                                            "data": {},
+                                            "anim": {}
+                                        },
+                                        {
+                                            "uniqueId": 12800568172,
+                                            "wwVersion": 3,
+                                            "content": {
+                                                "type": "ww-row",
+                                                "data": {
+                                                    "wwObjects": [
+                                                        {
+                                                            "uniqueId": 14895477963,
+                                                            "wwVersion": 3,
+                                                            "content": {
+                                                                "type": "ww-icon",
+                                                                "data": {
+                                                                    "icon": "wwi wwi-copy",
+                                                                    "style": {
+                                                                        "color": "#5E5E5E",
+                                                                        "backgroundColor": "#FFFFFF",
+                                                                        "gradient": {},
+                                                                        "borderRadius": 0,
+                                                                        "borderWidth": 0,
+                                                                        "borderColor": "#000000",
+                                                                        "borderStyle": "none",
+                                                                        "boxShadow": {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "b": 0,
+                                                                            "s": 0,
+                                                                            "c": ""
+                                                                        },
+                                                                        "size": 40,
+                                                                        "fontSize": 20
+                                                                    }
+                                                                }
+                                                            },
+                                                            "link": {
+                                                                "type": "none",
+                                                                "data": {}
+                                                            },
+                                                            "ratio": -1,
+                                                            "paddings": {
+                                                                "xs": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                },
+                                                                "md": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                }
+                                                            },
+                                                            "hidden": false,
+                                                            "tags": [],
+                                                            "children": {},
+                                                            "data": {},
+                                                            "anim": {}
+                                                        },
+                                                        {
+                                                            "uniqueId": 11735168597,
+                                                            "wwVersion": 3,
+                                                            "content": {
+                                                                "type": "ww-text",
+                                                                "data": {
+                                                                    "text": {
+                                                                        "fr": "<p>Nouveau texte</p>",
+                                                                        "en": "<p><span style=\"color: rgb(94, 94, 94);\">Components</span></p>"
+                                                                    },
+                                                                    "tag": "div",
+                                                                    "align": "",
+                                                                    "font": "",
+                                                                    "size": "",
+                                                                    "color": "",
+                                                                    "classes": [],
+                                                                    "children": [],
+                                                                    "fontStyle": "",
+                                                                    "_q": {
+                                                                        "fr": true,
+                                                                        "en": true
+                                                                    }
+                                                                }
+                                                            },
+                                                            "link": {
+                                                                "type": "none",
+                                                                "data": {}
+                                                            },
+                                                            "ratio": -1,
+                                                            "paddings": {
+                                                                "xs": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                },
+                                                                "md": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 20,
+                                                                    "bottom": 0
+                                                                }
+                                                            },
+                                                            "hidden": false,
+                                                            "tags": [],
+                                                            "children": {},
+                                                            "data": {},
+                                                            "anim": {}
+                                                        }
+                                                    ],
+                                                    "align": "center",
+                                                    "justify": "flex-start"
+                                                }
+                                            },
+                                            "link": {
+                                                "type": "none",
+                                                "data": {}
+                                            },
+                                            "ratio": -1,
+                                            "paddings": {
+                                                "xs": {
+                                                    "top": 0,
+                                                    "left": 0,
+                                                    "right": 0,
+                                                    "bottom": 0
+                                                },
+                                                "md": {
+                                                    "top": 0,
+                                                    "left": 0,
+                                                    "right": 0,
+                                                    "bottom": 0
+                                                }
+                                            },
+                                            "hidden": false,
+                                            "tags": [],
+                                            "children": {},
+                                            "data": {},
+                                            "anim": {}
+                                        }
+                                    ],
+                                    "dropDownStyle": {
+                                        "backgroundColor": "#FFFFFF",
+                                        "hoverColor": "#FAFAFA"
+                                    }
+                                }
+                            },
+                            "link": {
+                                "type": "none",
+                                "data": {}
+                            },
+                            "ratio": -1,
+                            "paddings": {
+                                "xs": {
+                                    "top": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "bottom": 0
+                                },
+                                "md": {
+                                    "top": 0,
+                                    "left": 20,
+                                    "right": 0,
+                                    "bottom": 0
+                                }
+                            },
+                            "hidden": false,
+                            "tags": [],
+                            "children": {},
+                            "data": {},
+                            "anim": {}
+                        },
+                        {
+                            "uniqueId": 1880562380,
+                            "wwVersion": 3,
+                            "content": {
+                                "type": "ww-dropdown-triangle",
+                                "data": {
+                                    "dropDownIcon": {
+                                        "uniqueId": 165352598,
+                                        "wwVersion": 3,
+                                        "content": {
+                                            "type": "ww-icon",
+                                            "data": {
+                                                "icon": "fas fa-angle-down",
+                                                "style": {
+                                                    "backgroundColor": "#FFFFFF00",
+                                                    "borderWidth": 0,
+                                                    "size": 15,
+                                                    "fontSize": 15,
+                                                    "color": "#5E5E5E",
+                                                    "gradient": {},
+                                                    "borderRadius": 50,
+                                                    "borderColor": "#000000",
+                                                    "borderStyle": "solid",
+                                                    "boxShadow": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "b": 0,
+                                                        "s": 0,
+                                                        "c": ""
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "link": {
+                                            "type": "none",
+                                            "data": {}
+                                        },
+                                        "ratio": -1,
+                                        "paddings": {
+                                            "xs": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            },
+                                            "md": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            }
+                                        },
+                                        "hidden": false,
+                                        "tags": [],
+                                        "children": {},
+                                        "data": {},
+                                        "anim": {}
+                                    },
+                                    "dropDownButton": {
+                                        "uniqueId": 9507134213,
+                                        "wwVersion": 3,
+                                        "content": {
+                                            "type": "ww-button",
+                                            "data": {
+                                                "text": {
+                                                    "uniqueId": 12058622786,
+                                                    "wwVersion": 3,
+                                                    "content": {
+                                                        "type": "ww-text",
+                                                        "data": {
+                                                            "text": {
+                                                                "fr": "<p>Nouveau bouton</p>",
+                                                                "en": "<p><span style=\"color: rgb(94, 94, 94);\">Ressources</span></p>"
+                                                            },
+                                                            "tag": "div",
+                                                            "align": "",
+                                                            "font": "",
+                                                            "size": "",
+                                                            "color": "",
+                                                            "classes": [],
+                                                            "children": [],
+                                                            "fontStyle": "",
+                                                            "_q": {
+                                                                "fr": true,
+                                                                "en": true
+                                                            }
+                                                        }
+                                                    },
+                                                    "link": {
+                                                        "type": "none",
+                                                        "data": {}
+                                                    },
+                                                    "ratio": -1,
+                                                    "paddings": {
+                                                        "xs": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        },
+                                                        "md": {
+                                                            "top": 0,
+                                                            "left": 0,
+                                                            "right": 0,
+                                                            "bottom": 0
+                                                        }
+                                                    },
+                                                    "hidden": false,
+                                                    "tags": [],
+                                                    "children": {},
+                                                    "data": {},
+                                                    "anim": {}
+                                                },
+                                                "style": {
+                                                    "backgroundColor": "#FFFFFF00",
+                                                    "borderWidth": 0,
+                                                    "gradient": "",
+                                                    "borderRadius": 50,
+                                                    "borderColor": "#000000",
+                                                    "borderStyle": "solid",
+                                                    "padding": 10,
+                                                    "justify": null,
+                                                    "boxShadow": {
+                                                        "x": 0,
+                                                        "y": 0,
+                                                        "b": 0,
+                                                        "s": 0,
+                                                        "c": ""
+                                                    }
+                                                },
+                                                "fullWidth": false
+                                            }
+                                        },
+                                        "link": {
+                                            "type": "none",
+                                            "data": {}
+                                        },
+                                        "ratio": -1,
+                                        "paddings": {
+                                            "xs": {
+                                                "top": 0,
+                                                "left": 0,
+                                                "right": 0,
+                                                "bottom": 0
+                                            },
+                                            "md": {
+                                                "top": 0,
+                                                "left": 20,
+                                                "right": 0,
+                                                "bottom": 0
+                                            }
+                                        },
+                                        "hidden": false,
+                                        "tags": [],
+                                        "children": {},
+                                        "data": {},
+                                        "anim": {}
+                                    },
+                                    "style": {
+                                        "justify": null
+                                    },
+                                    "title": null,
+                                    "background": null,
+                                    "list": [
+                                        {
+                                            "uniqueId": 15034475969,
+                                            "wwVersion": 3,
+                                            "content": {
+                                                "type": "ww-row",
+                                                "data": {
+                                                    "wwObjects": [
+                                                        {
+                                                            "uniqueId": 14623557646,
+                                                            "wwVersion": 3,
+                                                            "content": {
+                                                                "type": "ww-icon",
+                                                                "data": {
+                                                                    "icon": "wwi wwi-user",
+                                                                    "style": {
+                                                                        "color": "#5E5E5E",
+                                                                        "backgroundColor": "#FFFFFF",
+                                                                        "gradient": {},
+                                                                        "borderRadius": 0,
+                                                                        "borderWidth": 0,
+                                                                        "borderColor": "#000000",
+                                                                        "borderStyle": "none",
+                                                                        "boxShadow": {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "b": 0,
+                                                                            "s": 0,
+                                                                            "c": ""
+                                                                        },
+                                                                        "size": 40,
+                                                                        "fontSize": 20
+                                                                    }
+                                                                }
+                                                            },
+                                                            "link": {
+                                                                "type": "none",
+                                                                "data": {}
+                                                            },
+                                                            "ratio": -1,
+                                                            "paddings": {
+                                                                "xs": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                },
+                                                                "md": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                }
+                                                            },
+                                                            "hidden": false,
+                                                            "tags": [],
+                                                            "children": {},
+                                                            "data": {},
+                                                            "anim": {}
+                                                        },
+                                                        {
+                                                            "uniqueId": 1492285960,
+                                                            "wwVersion": 3,
+                                                            "content": {
+                                                                "type": "ww-text",
+                                                                "data": {
+                                                                    "text": {
+                                                                        "fr": "<p>Nouveau texte</p>",
+                                                                        "en": "<p><span style=\"color: rgb(94, 94, 94);\">Tutorials</span></p>"
+                                                                    },
+                                                                    "tag": "div",
+                                                                    "align": "",
+                                                                    "font": "",
+                                                                    "size": "",
+                                                                    "color": "",
+                                                                    "classes": [],
+                                                                    "children": [],
+                                                                    "fontStyle": "",
+                                                                    "_q": {
+                                                                        "fr": true,
+                                                                        "en": true
+                                                                    }
+                                                                }
+                                                            },
+                                                            "link": {
+                                                                "type": "none",
+                                                                "data": {}
+                                                            },
+                                                            "ratio": -1,
+                                                            "paddings": {
+                                                                "xs": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                },
+                                                                "md": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 20,
+                                                                    "bottom": 0
+                                                                }
+                                                            },
+                                                            "hidden": false,
+                                                            "tags": [],
+                                                            "children": {},
+                                                            "data": {},
+                                                            "anim": {}
+                                                        }
+                                                    ],
+                                                    "align": "center",
+                                                    "justify": "flex-start"
+                                                }
+                                            },
+                                            "link": {
+                                                "type": "none",
+                                                "data": {}
+                                            },
+                                            "ratio": -1,
+                                            "paddings": {
+                                                "xs": {
+                                                    "top": 0,
+                                                    "left": 0,
+                                                    "right": 0,
+                                                    "bottom": 0
+                                                },
+                                                "md": {
+                                                    "top": 0,
+                                                    "left": 0,
+                                                    "right": 0,
+                                                    "bottom": 0
+                                                }
+                                            },
+                                            "hidden": false,
+                                            "tags": [],
+                                            "children": {},
+                                            "data": {},
+                                            "anim": {}
+                                        },
+                                        {
+                                            "uniqueId": 3645372840,
+                                            "wwVersion": 3,
+                                            "content": {
+                                                "type": "ww-row",
+                                                "data": {
+                                                    "wwObjects": [
+                                                        {
+                                                            "uniqueId": 672237328,
+                                                            "wwVersion": 3,
+                                                            "content": {
+                                                                "type": "ww-icon",
+                                                                "data": {
+                                                                    "icon": "wwi wwi-copy",
+                                                                    "style": {
+                                                                        "color": "#5E5E5E",
+                                                                        "backgroundColor": "#FFFFFF",
+                                                                        "gradient": {},
+                                                                        "borderRadius": 0,
+                                                                        "borderWidth": 0,
+                                                                        "borderColor": "#000000",
+                                                                        "borderStyle": "none",
+                                                                        "boxShadow": {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "b": 0,
+                                                                            "s": 0,
+                                                                            "c": ""
+                                                                        },
+                                                                        "size": 40,
+                                                                        "fontSize": 20
+                                                                    }
+                                                                }
+                                                            },
+                                                            "link": {
+                                                                "type": "none",
+                                                                "data": {}
+                                                            },
+                                                            "ratio": -1,
+                                                            "paddings": {
+                                                                "xs": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                },
+                                                                "md": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                }
+                                                            },
+                                                            "hidden": false,
+                                                            "tags": [],
+                                                            "children": {},
+                                                            "data": {},
+                                                            "anim": {}
+                                                        },
+                                                        {
+                                                            "uniqueId": 10761190962,
+                                                            "wwVersion": 3,
+                                                            "content": {
+                                                                "type": "ww-text",
+                                                                "data": {
+                                                                    "text": {
+                                                                        "fr": "<p>Nouveau texte</p>",
+                                                                        "en": "<p><span style=\"color: rgb(94, 94, 94);\">Dev Documentation</span></p>"
+                                                                    },
+                                                                    "tag": "div",
+                                                                    "align": "",
+                                                                    "font": "",
+                                                                    "size": "",
+                                                                    "color": "",
+                                                                    "classes": [],
+                                                                    "children": [],
+                                                                    "fontStyle": "",
+                                                                    "_q": {
+                                                                        "fr": true,
+                                                                        "en": true
+                                                                    }
+                                                                }
+                                                            },
+                                                            "link": {
+                                                                "type": "none",
+                                                                "data": {}
+                                                            },
+                                                            "ratio": -1,
+                                                            "paddings": {
+                                                                "xs": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 0,
+                                                                    "bottom": 0
+                                                                },
+                                                                "md": {
+                                                                    "top": 0,
+                                                                    "left": 0,
+                                                                    "right": 20,
+                                                                    "bottom": 0
+                                                                }
+                                                            },
+                                                            "hidden": false,
+                                                            "tags": [],
+                                                            "children": {},
+                                                            "data": {},
+                                                            "anim": {}
+                                                        }
+                                                    ],
+                                                    "align": "center",
+                                                    "justify": "flex-start"
+                                                }
+                                            },
+                                            "link": {
+                                                "type": "none",
+                                                "data": {}
+                                            },
+                                            "ratio": -1,
+                                            "paddings": {
+                                                "xs": {
+                                                    "top": 0,
+                                                    "left": 0,
+                                                    "right": 0,
+                                                    "bottom": 0
+                                                },
+                                                "md": {
+                                                    "top": 0,
+                                                    "left": 0,
+                                                    "right": 0,
+                                                    "bottom": 0
+                                                }
+                                            },
+                                            "hidden": false,
+                                            "tags": [],
+                                            "children": {},
+                                            "data": {},
+                                            "anim": {}
+                                        }
+                                    ],
+                                    "dropDownStyle": {
+                                        "backgroundColor": "#FFFFFF",
+                                        "hoverColor": "#FAFAFA"
+                                    }
+                                }
+                            },
+                            "link": {
+                                "type": "none",
+                                "data": {}
+                            },
+                            "ratio": -1,
+                            "paddings": {
+                                "xs": {
+                                    "top": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "bottom": 0
+                                },
+                                "md": {
+                                    "top": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "bottom": 0
+                                }
+                            },
+                            "hidden": false,
+                            "tags": [],
+                            "children": {},
+                            "data": {},
+                            "anim": {}
+                        },
+                        {
+                            "uniqueId": 1247539165,
+                            "wwVersion": 3,
+                            "content": {
+                                "type": "ww-text",
+                                "data": {
+                                    "text": {
+                                        "fr": "<p>Nouveau texte</p>",
+                                        "en": "<p><span style=\"color: rgb(94, 94, 94);\">Pricing</span></p>"
+                                    },
+                                    "tag": "div",
+                                    "align": "",
+                                    "font": "",
+                                    "size": "",
+                                    "color": "",
+                                    "classes": [],
+                                    "children": [],
+                                    "fontStyle": "",
+                                    "_q": {
+                                        "fr": true,
+                                        "en": true
+                                    }
+                                }
+                            },
+                            "link": {
+                                "type": "none",
+                                "data": {}
+                            },
+                            "ratio": -1,
+                            "paddings": {
+                                "xs": {
+                                    "top": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "bottom": 0
+                                },
+                                "md": {
+                                    "top": 0,
+                                    "left": 20,
+                                    "right": 0,
+                                    "bottom": 0
+                                }
+                            },
+                            "hidden": false,
+                            "tags": [],
+                            "children": {},
+                            "data": {},
+                            "anim": {}
+                        },
+                        {
+                            "uniqueId": 9116591419,
+                            "wwVersion": 3,
+                            "content": {
+                                "type": "ww-text",
+                                "data": {
+                                    "text": {
+                                        "fr": "<p>Nouveau texte</p>",
+                                        "en": "<p><span style=\"color: rgb(94, 94, 94);\">Community</span></p>"
+                                    },
+                                    "tag": "div",
+                                    "align": "",
+                                    "font": "",
+                                    "size": "",
+                                    "color": "",
+                                    "classes": [],
+                                    "children": [],
+                                    "fontStyle": "",
+                                    "_q": {
+                                        "fr": true,
+                                        "en": true
+                                    }
+                                }
+                            },
+                            "link": {
+                                "type": "none",
+                                "data": {}
+                            },
+                            "ratio": -1,
+                            "paddings": {
+                                "xs": {
+                                    "top": 0,
+                                    "left": 0,
+                                    "right": 0,
+                                    "bottom": 0
+                                },
+                                "md": {
+                                    "top": 0,
+                                    "left": 20,
+                                    "right": 0,
+                                    "bottom": 0
+                                }
+                            },
+                            "hidden": false,
+                            "tags": [],
+                            "children": {},
+                            "data": {},
+                            "anim": {}
+                        }
+                    ],
+                    "align": "center",
+                    "justify": "flex-start"
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {}
+        }
+    ],
+    "rightRow": [
+        {
+            "uniqueId": 6412223174,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-button",
+                "data": {
+                    "text": {
+                        "uniqueId": 9659698110,
+                        "wwVersion": 3,
+                        "content": {
+                            "type": "ww-text",
+                            "data": {
+                                "text": {
+                                    "fr": "<p>Nouveau bouton</p>",
+                                    "en": "<p><span style=\"color: rgb(94, 94, 94);\">LOGIN</span></p>"
+                                },
+                                "tag": "div",
+                                "align": "",
+                                "font": "",
+                                "size": "",
+                                "color": "",
+                                "classes": [],
+                                "children": [],
+                                "fontStyle": "",
+                                "_q": {
+                                    "fr": true,
+                                    "en": true
+                                }
+                            }
+                        },
+                        "link": {
+                            "type": "none",
+                            "data": {}
+                        },
+                        "ratio": -1,
+                        "paddings": {
+                            "xs": {
+                                "top": 0,
+                                "left": 0,
+                                "right": 0,
+                                "bottom": 0
+                            },
+                            "md": {
+                                "top": 5,
+                                "left": 20,
+                                "right": 20,
+                                "bottom": 5
+                            }
+                        },
+                        "hidden": false,
+                        "tags": [],
+                        "children": {},
+                        "data": {},
+                        "anim": {}
+                    },
+                    "style": {
+                        "backgroundColor": "#FFFFFF",
+                        "gradient": {},
+                        "borderRadius": 50,
+                        "borderWidth": 1,
+                        "borderColor": "#5E5E5E",
+                        "borderStyle": "solid",
+                        "padding": 0,
+                        "justify": null,
+                        "boxShadow": {
+                            "x": 0,
+                            "y": 0,
+                            "b": 0,
+                            "s": 0,
+                            "c": ""
+                        }
+                    },
+                    "fullWidth": false
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 60,
+                    "bottom": 0
+                }
+            },
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {}
+        }
+    ],
+    "leftRowAtScrollTop": [],
+    "rightRowAtScrollTop": [
+        {
+            "uniqueId": 14314979122,
+            "wwVersion": 3,
+            "content": {
+                "type": "ww-button",
+                "data": {
+                    "text": {
+                        "uniqueId": 8618314420,
+                        "wwVersion": 3,
+                        "content": {
+                            "type": "ww-text",
+                            "data": {
+                                "text": {
+                                    "fr": "<p>Nouveau bouton</p>",
+                                    "en": "<p>LOGIN</p>"
+                                },
+                                "tag": "div",
+                                "align": "",
+                                "font": "",
+                                "size": "",
+                                "color": "",
+                                "classes": [],
+                                "children": [],
+                                "fontStyle": "",
+                                "_q": {
+                                    "fr": true,
+                                    "en": true
+                                }
+                            }
+                        },
+                        "link": {
+                            "type": "none",
+                            "data": {}
+                        },
+                        "ratio": -1,
+                        "paddings": {
+                            "xs": {
+                                "top": 0,
+                                "left": 0,
+                                "right": 0,
+                                "bottom": 0
+                            },
+                            "md": {
+                                "top": 5,
+                                "left": 20,
+                                "right": 20,
+                                "bottom": 5
+                            }
+                        },
+                        "hidden": false,
+                        "tags": [],
+                        "children": {},
+                        "data": {},
+                        "anim": {}
+                    },
+                    "style": {
+                        "backgroundColor": "#FFFFFF",
+                        "gradient": {},
+                        "borderRadius": 50,
+                        "borderWidth": 0,
+                        "borderColor": "#5E5E5E",
+                        "borderStyle": "none",
+                        "padding": 0,
+                        "justify": null,
+                        "boxShadow": {
+                            "x": 0,
+                            "y": 0,
+                            "b": 0,
+                            "s": 0,
+                            "c": ""
+                        }
+                    },
+                    "fullWidth": false
+                }
+            },
+            "link": {
+                "type": "none",
+                "data": {}
+            },
+            "ratio": -1,
+            "paddings": {
+                "xs": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                },
+                "md": {
+                    "top": 0,
+                    "left": 0,
+                    "right": 60,
+                    "bottom": 0
+                }
+            },
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {}
+        }
+    ],
+    "rowsSide": [],
+    "backgroundSide": {
+        "uniqueId": 3862677074,
+        "wwVersion": 3,
+        "content": {
+            "type": "ww-color",
+            "data": {
+                "backgroundColor": "#FFFFFF",
+                "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "borderColor": null,
+                    "borderStyle": null,
+                    "boxShadow": {
+                        "x": 0,
+                        "y": 0,
+                        "b": 0,
+                        "s": 0,
+                        "c": ""
+                    }
+                }
+            }
+        },
+        "link": {
+            "type": "none",
+            "data": {}
+        },
+        "ratio": -1,
+        "paddings": {
+            "xs": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            },
+            "md": {
+                "top": 0,
+                "left": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "hidden": false,
+        "tags": [],
+        "children": {},
+        "data": {},
+        "anim": {}
+    }
+}
