@@ -14,28 +14,38 @@
                 <div class="content" :class="{'shadow':scrollStarted}">
                     <wwObject v-if="scrollStarted" class="background" :ww-object="section.data.background" ww-category="background"></wwObject>
 
+                    <!-- LOGO -->
                     <div class="logo-container">
                         <div class="logo" :class="{'smaller':scrollStarted}">
                             <wwObject :ww-object="section.data.logo" ww-no-twic-pics="true"></wwObject>
                         </div>
                     </div>
 
+                    <!-- LINKS -->
                     <wwLayoutColumn v-if="!scrollStarted" class="left-row" tag="div" ww-default="ww-row" :ww-list="section.data.leftRowAtScrollTop" @ww-add="add(section.data.leftRowAtScrollTop, $event)" @ww-remove="remove(section.data.leftRowAtScrollTop, $event)">
                         <wwObject v-for="row in section.data.leftRowAtScrollTop" :key="row.uniqueId" :ww-object="row"></wwObject>
                     </wwLayoutColumn>
 
+                    <!-- CALL TO ACTION -->
                     <wwLayoutColumn v-if="!scrollStarted" class="right-row" tag="div" ww-default="ww-row" :ww-list="section.data.rightRowAtScrollTop" @ww-add="add(section.data.rightRowAtScrollTop, $event)" @ww-remove="remove(section.data.rightRowAtScrollTop, $event)">
                         <wwObject v-for="row in section.data.rightRowAtScrollTop" :key="row.uniqueId" :ww-object="row"></wwObject>
                     </wwLayoutColumn>
 
+                    <!-- LINKS AFTER SCROLL -->
                     <transition name="slide-fade">
                         <wwLayoutColumn v-if="scrollStarted" class="left-row" tag="div" ww-default="ww-row" :ww-list="section.data.leftRow" @ww-add="add(section.data.leftRow, $event)" @ww-remove="remove(section.data.leftRow, $event)">
                             <wwObject v-for="row in section.data.leftRow" :key="row.uniqueId" :ww-object="row"></wwObject>
                         </wwLayoutColumn>
                     </transition>
+                    <!-- CALL TO ACTION AFTER SCROLL -->
                     <wwLayoutColumn v-if="scrollStarted" class="right-row" tag="div" ww-default="ww-row" :ww-list="section.data.rightRow" @ww-add="add(section.data.rightRow, $event)" @ww-remove="remove(section.data.rightRow, $event)">
                         <wwObject v-for="row in section.data.rightRow" :key="row.uniqueId" :ww-object="row"></wwObject>
                     </wwLayoutColumn>
+
+                    <!-- MOBILE MENU -->
+                    <div class="menu-container">
+                        <wwObject class="menu-icon" :ww-object="section.data.mobileMenu"></wwObject>
+                    </div>
                 </div>
             </div>
         </div>
@@ -165,6 +175,11 @@ export default {
             needUpdate = true;
         }
 
+        if (!this.section.data.mobileMenu) {
+            this.section.data.mobileMenu = wwLib.wwObject.getDefault({ type: 'ww-icon' });
+            needUpdate = true;
+        }
+
         if (!this.section.data.leftRow) {
             this.section.data.leftRow = [];
             needUpdate = true;
@@ -286,12 +301,29 @@ $navbar-width: 330px;
                 }
 
                 .left-row {
+                    display: none;
                     width: auto;
                     flex-basis: 60%;
+                    @media (min-width: 992px) {
+                        display: block;
+                    }
                 }
                 .right-row {
+                    display: none;
                     flex-basis: 20%;
                     width: 500px;
+                    @media (min-width: 992px) {
+                        display: block;
+                    }
+                }
+                .menu-container {
+                    display: flex;
+                    flex-basis: 80%;
+                    justify-content: flex-end;
+                    padding-right: 20px;
+                    @media (min-width: 992px) {
+                        display: none;
+                    }
                 }
             }
         }
