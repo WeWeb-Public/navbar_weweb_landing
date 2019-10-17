@@ -93,7 +93,11 @@ export default {
     },
     methods: {
         init() {
-            window.addEventListener('scroll', this.onScroll, { passive: true });
+            if (window.location.pathname == '/welcome' || window.location.pathname == '/ww_front/welcome') {
+                window.addEventListener('scroll', this.onScroll, { passive: true })
+            } else {
+                this.scrollStarted = true;
+            }
             window.addEventListener('resize', this.onResize, { passive: true });
 
             wwLib.$on('wwNavbar:toggle', this.toggleNavbar);
