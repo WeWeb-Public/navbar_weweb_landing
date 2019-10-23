@@ -11,8 +11,9 @@
                 <wwSectionEditMenu size="small" :sectionCtrl="sectionCtrl" :options="openOptions"></wwSectionEditMenu>
                 <!-- wwManager:end -->
                 <!-- Weweb Wallpaper -->
+
                 <div class="content" :class="{'shadow':scrollStarted}">
-                    <wwObject v-if="scrollStarted" class="background" :ww-object="section.data.background" ww-category="background"></wwObject>
+                    <wwObject v-show="scrollStarted" class="background" :ww-object="section.data.background" ww-category="background"></wwObject>
 
                     <!-- LOGO -->
                     <div class="logo-container">
@@ -21,9 +22,9 @@
                         </div>
                     </div>
 
-                    <!-- LINKS -->
-                    <wwLayoutColumn v-if="!scrollStarted" class="left-row" tag="div" ww-default="ww-row" :ww-list="section.data.leftRowAtScrollTop" @ww-add="add(section.data.leftRowAtScrollTop, $event)" @ww-remove="remove(section.data.leftRowAtScrollTop, $event)">
-                        <wwObject v-for="row in section.data.leftRowAtScrollTop" :key="row.uniqueId" :ww-object="row"></wwObject>
+                    <!-- LINKS AFTER SCROLL -->
+                    <wwLayoutColumn class="left-row" :class="{'show':scrollStarted}" tag="div" ww-default="ww-row" :ww-list="section.data.leftRow" @ww-add="add(section.data.leftRow, $event)" @ww-remove="remove(section.data.leftRow, $event)">
+                        <wwObject v-for="row in section.data.leftRow" :key="row.uniqueId" :ww-object="row"></wwObject>
                     </wwLayoutColumn>
 
                     <!-- CALL TO ACTION -->
@@ -31,12 +32,6 @@
                         <wwObject v-for="row in section.data.rightRowAtScrollTop" :key="row.uniqueId" :ww-object="row"></wwObject>
                     </wwLayoutColumn>
 
-                    <!-- LINKS AFTER SCROLL -->
-                    <transition name="slide-fade">
-                        <wwLayoutColumn v-if="scrollStarted" class="left-row" tag="div" ww-default="ww-row" :ww-list="section.data.leftRow" @ww-add="add(section.data.leftRow, $event)" @ww-remove="remove(section.data.leftRow, $event)">
-                            <wwObject v-for="row in section.data.leftRow" :key="row.uniqueId" :ww-object="row"></wwObject>
-                        </wwLayoutColumn>
-                    </transition>
                     <!-- CALL TO ACTION AFTER SCROLL -->
                     <wwLayoutColumn v-if="scrollStarted" class="right-row" tag="div" ww-default="ww-row" :ww-list="section.data.rightRow" @ww-add="add(section.data.rightRow, $event)" @ww-remove="remove(section.data.rightRow, $event)">
                         <wwObject v-for="row in section.data.rightRow" :key="row.uniqueId" :ww-object="row"></wwObject>
@@ -93,6 +88,7 @@ export default {
     },
     methods: {
         init() {
+            window.addEventListener('scroll', this.onScroll, { passive: true })
             if (window.location.pathname == '/welcome' || window.location.pathname == '/ww_front/welcome') {
                 window.addEventListener('scroll', this.onScroll, { passive: true })
             } else {
@@ -298,18 +294,25 @@ $navbar-width: 330px;
                     flex-basis: 20%;
                     .logo {
                         width: 110px;
+                        transition: transform 0.3s ease;
                         &.smaller {
-                            transform: scale3d(0.8, 0.8, 0.8);
+                            transform: scale(0.8);
                         }
                     }
                 }
 
                 .left-row {
-                    display: none;
                     width: auto;
                     flex-basis: 60%;
+                    opacity: 0;
+                    transition: all 0.3s ease;
+                    visibility: hidden;
                     @media (min-width: 992px) {
                         display: block;
+                    }
+                    &.show {
+                        opacity: 1;
+                        visibility: visible;
                     }
                 }
                 .right-row {
