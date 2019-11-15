@@ -301,6 +301,7 @@ $navbar-width: 330px;
                 }
 
                 .left-row {
+                    display: none;
                     width: auto;
                     flex-basis: 60%;
                     opacity: 0;
