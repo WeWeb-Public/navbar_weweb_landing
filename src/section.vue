@@ -285,7 +285,7 @@ $navbar-width: 330px;
                 align-items: center;
                 transition: box-shadow 0.3s ease;
                 &.shadow {
-                    box-shadow: 0 3px 10px 3px #dedede;
+                    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
                 }
                 .logo-container {
                     padding-left: 5%;
