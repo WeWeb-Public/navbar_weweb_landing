@@ -88,7 +88,7 @@ export default {
     },
     methods: {
         init() {
-            if (window.location.pathname == '/welcome' || window.location.pathname == '/ww_front/welcome') {
+            if (window.location.pathname == '/' || window.location.pathname == '/ww_front/' || window.location.pathname == '/welcome' || window.location.pathname == '/ww_front/welcome') {
                 window.addEventListener('scroll', this.onScroll, { passive: true })
             } else {
                 this.scrollStarted = true;
