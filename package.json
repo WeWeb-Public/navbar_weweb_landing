@@ -1,4 +1,4 @@
-{
+latest{
   "name": "navbar_weweb_landing",
   "type": "section",
   "wewebPublic": "true",
@@ -17,7 +17,7 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "weweb-client": "^1.1.3"
+    "weweb-client": "latest"
   },
   "browserslist": [
     "> 1%",
