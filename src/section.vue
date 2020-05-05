@@ -18,7 +18,7 @@
                     <!-- LOGO -->
                     <div class="logo-container">
                         <div class="logo" :class="{'smaller':scrollStarted}">
-                            <wwObject :ww-object="section.data.logo" ww-no-twic-pics="true"></wwObject>
+                            <wwObject :ww-object="section.data.logo"></wwObject>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@
                     </wwLayoutColumn>
 
                     <!-- CALL TO ACTION AFTER SCROLL -->
-                    <wwLayoutColumn v-if="scrollStarted" class="right-row" tag="div" ww-default="ww-row" :ww-list="section.data.rightRow" @ww-add="add(section.data.rightRow, $event)" @ww-remove="remove(section.data.rightRow, $event)">
+                    <wwLayoutColumn v-else class="right-row" tag="div" ww-default="ww-row" :ww-list="section.data.rightRow" @ww-add="add(section.data.rightRow, $event)" @ww-remove="remove(section.data.rightRow, $event)">
                         <wwObject v-for="row in section.data.rightRow" :key="row.uniqueId" :ww-object="row"></wwObject>
                     </wwLayoutColumn>
 
@@ -63,7 +63,6 @@
 <!-- This is your Javascript -->
 <!-- ✨ Here comes the magic ✨ -->
 <script>
-
 export default {
     name: "__COMPONENT_NAME__",
     props: {
@@ -76,7 +75,7 @@ export default {
             show: false,
             navbarOpen: false,
             scrollStarted: false
-        }
+        };
     },
     computed: {
         //Get the section object here !
@@ -88,14 +87,14 @@ export default {
     },
     methods: {
         init() {
-            if (window.location.pathname == '/' || window.location.pathname == '/ww_front/' || window.location.pathname == '/welcome' || window.location.pathname == '/ww_front/welcome') {
-                window.addEventListener('scroll', this.onScroll, { passive: true })
+            if (window.location.pathname == "/" || window.location.pathname == "/ww_front/" || window.location.pathname == "/welcome" || window.location.pathname == "/ww_front/welcome") {
+                window.addEventListener("scroll", this.onScroll, { passive: true });
             } else {
                 this.scrollStarted = true;
             }
-            window.addEventListener('resize', this.onResize, { passive: true });
+            window.addEventListener("resize", this.onResize, { passive: true });
 
-            wwLib.$on('wwNavbar:toggle', this.toggleNavbar);
+            wwLib.$on("wwNavbar:toggle", this.toggleNavbar);
         },
 
         /*=============================================m_ÔÔ_m=============================================\
@@ -104,19 +103,18 @@ export default {
         toggleNavbar() {
             this.navbarOpen = !this.navbarOpen;
             if (this.navbarOpen) {
-                for (let section of document.querySelectorAll('.ww-section:not([ww-fixed])')) {
-                    section.classList.add('navbar_A-open');
+                for (let section of document.querySelectorAll(".ww-section:not([ww-fixed])")) {
+                    section.classList.add("navbar_A-open");
                 }
-                for (let container of this.$el.querySelectorAll('.container')) {
-                    container.classList.add('navbar_A-open');
+                for (let container of this.$el.querySelectorAll(".container")) {
+                    container.classList.add("navbar_A-open");
                 }
-            }
-            else {
-                for (let section of document.querySelectorAll('.ww-section:not([ww-fixed])')) {
-                    section.classList.remove('navbar_A-open');
+            } else {
+                for (let section of document.querySelectorAll(".ww-section:not([ww-fixed])")) {
+                    section.classList.remove("navbar_A-open");
                 }
-                for (let container of this.$el.querySelectorAll('.container')) {
-                    container.classList.remove('navbar_A-open');
+                for (let container of this.$el.querySelectorAll(".container")) {
+                    container.classList.remove("navbar_A-open");
                 }
             }
         },
@@ -127,14 +125,14 @@ export default {
         onScroll() {
             try {
                 const scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
-                this.scrollStarted = (scrollTop > 0);
+                this.scrollStarted = scrollTop > 0;
             } catch (error) {
-                console.log(error)
+                console.log(error);
             }
         },
         onResize() {
             const e = document.documentElement;
-            const g = document.getElementsByTagName('body')[0];
+            const g = document.getElementsByTagName("body")[0];
             this.windowHeight = window.innerHeight || e.clientHeight || g.clientHeight;
         },
 
@@ -151,31 +149,29 @@ export default {
             list.splice(options.index, 1);
 
             this.sectionCtrl.update(this.section);
-        },
+        }
     },
     mounted() {
         this.init();
     },
     created() {
-
         let needUpdate = false;
 
         //Initialize section data
         this.section.data = this.section.data || {};
 
-
         if (!this.section.data.background) {
-            this.section.data.background = wwLib.wwObject.getDefault({ type: 'ww-color', data: { backgroundColor: '#FFFFFF' } });
+            this.section.data.background = wwLib.wwObject.getDefault({ type: "ww-color", data: { backgroundColor: "#FFFFFF" } });
             needUpdate = true;
         }
 
         if (!this.section.data.logo) {
-            this.section.data.logo = wwLib.wwObject.getDefault({ type: 'ww-image' });
+            this.section.data.logo = wwLib.wwObject.getDefault({ type: "ww-image" });
             needUpdate = true;
         }
 
         if (!this.section.data.mobileMenu) {
-            this.section.data.mobileMenu = wwLib.wwObject.getDefault({ type: 'ww-icon' });
+            this.section.data.mobileMenu = wwLib.wwObject.getDefault({ type: "ww-icon" });
             needUpdate = true;
         }
 
@@ -205,24 +201,21 @@ export default {
         }
 
         if (!this.section.data.backgroundSide) {
-            this.section.data.backgroundSide = wwLib.wwObject.getDefault({ type: 'ww-color', data: { backgroundColor: '#FFFFFF' } });
+            this.section.data.backgroundSide = wwLib.wwObject.getDefault({ type: "ww-color", data: { backgroundColor: "#FFFFFF" } });
             needUpdate = true;
         }
-
 
         if (needUpdate) {
             this.sectionCtrl.update(this.section);
         }
 
-
         this.onResize();
-
     },
     beforeDestroy() {
-        window.removeEventListener('scroll', this.onScroll);
-        window.removeEventListener('resize', this.onResize);
+        window.removeEventListener("scroll", this.onScroll);
+        window.removeEventListener("resize", this.onResize);
 
-        wwLib.$off('wwNavbar:toggle', this.toggleNavbar);
+        wwLib.$off("wwNavbar:toggle", this.toggleNavbar);
     }
 };
 </script>
