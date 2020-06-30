@@ -12,7 +12,7 @@
                 <!-- wwManager:end -->
                 <!-- Weweb Wallpaper -->
 
-                <div class="content" :class="{'shadow':scrollStarted}">
+                <div class="content-nav" :class="{'shadow':scrollStarted}">
                     <wwObject v-show="scrollStarted" class="background" :ww-object="section.data.background" ww-category="background"></wwObject>
 
                     <!-- LOGO -->
@@ -51,7 +51,7 @@
                 <!-- wwManager:end -->
                 <wwObject class="background" :ww-object="section.data.backgroundSide" ww-category="background"></wwObject>
 
-                <wwLayoutColumn tag="div" ww-default="ww-row" :ww-list="section.data.rowsSide" class="content" @ww-add="add(section.data.rowsSide, $event)" @ww-remove="remove(section.data.rowsSide, $event)">
+                <wwLayoutColumn tag="div" ww-default="ww-row" :ww-list="section.data.rowsSide" class="content-nav" @ww-add="add(section.data.rowsSide, $event)" @ww-remove="remove(section.data.rowsSide, $event)">
                     <wwObject v-for="row in section.data.rowsSide" :key="row.uniqueId" :ww-object="row"></wwObject>
                 </wwLayoutColumn>
             </div>
@@ -272,7 +272,7 @@ $navbar-width: 330px;
                 height: 100%;
                 width: 100%;
             }
-            .content {
+            .content-nav {
                 position: relative;
                 display: flex;
                 align-items: center;
@@ -354,7 +354,7 @@ $navbar-width: 330px;
                 width: 100%;
             }
 
-            .content {
+            .content-nav {
                 position: relative;
             }
 
